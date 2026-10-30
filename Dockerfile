@@ -19,3 +19,4 @@ ENV NODE_ENV=production
 EXPOSE 8080
 
 CMD ["node", "server/index.js"]
+

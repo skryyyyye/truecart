@@ -10,13 +10,22 @@
       "createdAt": "2026-10-30T09:50:44.735Z"
     },
     {
-      "id": "user-demo",
+      "id": "user-kowshik",
       "username": "kowshik",
-      "email": "demo@truecart.com",
+      "email": "kowshik@truecart.com",
       "passwordHash": "$2a$10$QDiYnW4GsdlIpw5rpgc4zuhEfO3eJi/S6FLEHM1S5cVeTu4pbgqR2",
-      "name": "Kowshik",
+      "name": "Kowshik Sake",
       "role": "user",
       "createdAt": "2026-10-30T09:50:44.799Z"
+    },
+    {
+      "id": "user-1793378846438",
+      "name": "Priya Kumar",
+      "email": "priya_kumar@gmail.com",
+      "username": "priya_kumar",
+      "passwordHash": "$2a$10$F/Wx3C881suLUoKjgE.eru2Z8LN1OT3ugYnxE6ztk9.xjb63YN1Di",
+      "role": "user",
+      "createdAt": "2026-10-30T16:47:26.527Z"
     }
   ],
   "products": [
@@ -6137,7 +6146,7 @@
   "alerts": [
     {
       "id": "alert-1793354429531",
-      "userId": "user-demo",
+      "userId": "user-kowshik",
       "productId": "prod-2",
       "productTitle": "Samsung Galaxy S24 Ultra 5G (12GB RAM, 256GB Storage, Titanium Gray)",
       "productImage": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=800&q=80",
@@ -6149,7 +6158,7 @@
     },
     {
       "id": "alert-demo-1",
-      "userId": "user-demo",
+      "userId": "user-kowshik",
       "productId": "prod-1",
       "productTitle": "Apple iPhone 15 Pro (128 GB, Natural Titanium)",
       "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80",
@@ -6162,7 +6171,7 @@
     },
     {
       "id": "alert-demo-2",
-      "userId": "user-demo",
+      "userId": "user-kowshik",
       "productId": "prod-5",
       "productTitle": "Sony WH-1000XM5 Wireless Headphones",
       "productImage": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80",
@@ -6176,11 +6185,11 @@
   ],
   "watchlist": [
     {
-      "userId": "user-demo",
+      "userId": "user-kowshik",
       "productId": "prod-2"
     },
     {
-      "userId": "user-demo",
+      "userId": "user-kowshik",
       "productId": "prod-4"
     }
   ],

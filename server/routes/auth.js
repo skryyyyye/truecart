@@ -52,24 +52,44 @@ router.post('/register', (req, res) => {
   }
 });
 
-// Login for normal user
+// Login for normal user - any user can sign in instantly (auto-registers if not registered yet)
 router.post('/login', (req, res) => {
   try {
     const { identifier, email, username, password } = req.body;
-    const loginKey = identifier || email || username;
+    const loginKey = (identifier || email || username || '').trim();
 
     if (!loginKey || !password) {
       return res.status(400).json({ error: 'Username/email and password are required' });
     }
 
-    const user = findUserByEmailOrUsername(loginKey);
-    if (!user) {
-      return res.status(401).json({ error: 'Invalid credentials. User not found.' });
-    }
+    let user = findUserByEmailOrUsername(loginKey);
+    let isNewUser = false;
 
-    const match = bcrypt.compareSync(password, user.passwordHash);
-    if (!match) {
-      return res.status(401).json({ error: 'Invalid credentials. Wrong password.' });
+    if (!user) {
+      // Auto-register new user on sign in so ANY user can sign in without friction
+      const isEmail = loginKey.includes('@');
+      const generatedEmail = isEmail ? loginKey.toLowerCase() : `${loginKey.toLowerCase()}@truecart.com`;
+      const rawName = isEmail ? loginKey.split('@')[0] : loginKey;
+      const cleanName = rawName.replace(/[._-]/g, ' ');
+      const displayName = cleanName
+        .split(' ')
+        .filter(Boolean)
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ') || 'Shopper';
+
+      user = createUser({
+        name: displayName,
+        email: generatedEmail,
+        username: (isEmail ? loginKey.split('@')[0] : loginKey).toLowerCase(),
+        password: password,
+        role: 'user'
+      });
+      isNewUser = true;
+    } else {
+      const match = bcrypt.compareSync(password, user.passwordHash);
+      if (!match) {
+        return res.status(401).json({ error: 'Incorrect password for this existing account. Please try again.' });
+      }
     }
 
     const token = jwt.sign(
@@ -79,7 +99,7 @@ router.post('/login', (req, res) => {
     );
 
     return res.json({
-      message: 'Login successful',
+      message: isNewUser ? 'Account created and signed in successfully' : 'Login successful',
       token,
       user: {
         id: user.id,

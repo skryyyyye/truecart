@@ -115,11 +115,11 @@ function seedUsers() {
       createdAt: new Date().toISOString()
     },
     {
-      id: "user-demo",
+      id: "user-kowshik",
       username: "kowshik",
-      email: "demo@truecart.com",
+      email: "kowshik@truecart.com",
       passwordHash: bcrypt.hashSync("password123", salt),
-      name: "Kowshik",
+      name: "Kowshik Sake",
       role: "user",
       createdAt: new Date().toISOString()
     }
@@ -380,10 +380,12 @@ function simulatePriceSync() {
 
 // User operations
 function findUserByEmailOrUsername(identifier) {
+  if (!identifier) return null;
   const idLower = identifier.toLowerCase().trim();
   return db.users.find(u => 
     u.email.toLowerCase() === idLower || 
-    (u.username && u.username.toLowerCase() === idLower)
+    (u.username && u.username.toLowerCase() === idLower) ||
+    (idLower === 'demo@truecart.com' && (u.username === 'kowshik' || u.id === 'user-kowshik' || u.id === 'user-demo'))
   );
 }
 

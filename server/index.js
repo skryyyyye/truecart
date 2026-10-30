@@ -56,6 +56,8 @@ app.listen(PORT, () => {
   console.log(`  🛒 TrueCart API Server Live on http://localhost:${PORT}`);
   console.log(`  📊 Tracking: Amazon, Flipkart, Croma, Reliance Digital`);
   console.log(`  🔐 Admin Account: admin / admin123`);
-  console.log(`  👤 Demo User: demo@truecart.com / password123`);
+  console.log(`  👤 Standard User: kowshik / password123 (or any new user)`);
   console.log(`=========================================`);
 });
+
+module.exports = app;

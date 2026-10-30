@@ -31,11 +31,6 @@ export default function LoginPage() {
     }
   };
 
-  const handleFillDemoUser = () => {
-    setIdentifier('demo@truecart.com');
-    setPassword('password123');
-  };
-
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -53,10 +48,10 @@ export default function LoginPage() {
         </div>
 
         <h2 className="mt-6 text-center text-2xl font-black tracking-tight text-slate-900 brand-font">
-          Sign In to Your TrueCart Account
+          Sign In to Your Account
         </h2>
         <p className="mt-1 text-center text-xs text-slate-500">
-          Track multi-store price drops and save items to your wishlist
+          Enter your email or username — any user can sign in or get started instantly
         </p>
       </div>
 
@@ -79,7 +74,7 @@ export default function LoginPage() {
                   type="text"
                   value={identifier}
                   onChange={(e) => setIdentifier(e.target.value)}
-                  placeholder="name@example.com or username"
+                  placeholder="yourname@gmail.com or username"
                   required
                   className="w-full pl-10 pr-4 py-2.5 text-xs bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:bg-white"
                 />
@@ -109,21 +104,19 @@ export default function LoginPage() {
               disabled={loading}
               className="w-full py-3 px-4 bg-brand-600 hover:bg-brand-700 text-white rounded-xl text-xs font-bold shadow-md shadow-brand-500/20 transition flex items-center justify-center gap-1.5 disabled:opacity-50"
             >
-              <span>{loading ? 'Authenticating...' : 'Sign In'}</span>
+              <span>{loading ? 'Signing In...' : 'Sign In'}</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </form>
 
-          {/* Quick Demo Autofill */}
+          {/* Quick Helper Notice & Admin Link */}
           <div className="pt-2 border-t border-slate-100 space-y-2">
-            <button
-              type="button"
-              onClick={handleFillDemoUser}
-              className="w-full py-2 px-3 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition flex items-center justify-center gap-1.5"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-brand-600" />
-              <span>Fill Demo User (demo@truecart.com)</span>
-            </button>
+            <div className="p-3 bg-emerald-50 border border-emerald-200/80 rounded-xl text-emerald-800 text-[11px] leading-relaxed flex items-start gap-2">
+              <Sparkles className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
+              <span>
+                <strong>Instant Access:</strong> Any user can sign in using their email and password. If you don't have an account yet, one will be created automatically!
+              </span>
+            </div>
 
             <Link
               to="/admin"
