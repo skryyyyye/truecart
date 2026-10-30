@@ -1,0 +1,6121 @@
+const seedProducts = [
+  {
+    "id": "prod-1",
+    "title": "Apple iPhone 15 Pro (128 GB, Natural Titanium)",
+    "brand": "Apple",
+    "category": "Smartphones",
+    "mrp": 134900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/p/b/q/-original-imahggex2ye98xfn.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/p/b/q/-original-imahggex2ye98xfn.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile-panel/l/x/w/back-ip-15pro-wc-titunim-fionkiy-original-imahp8fspgpqpqnw.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile-panel/h/g/i/back-ip-15pro-blk-wc-flounder-original-imahmmvsfg6v9cfh.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 3420,
+    "expertScore": 9.4,
+    "badge": "Trending Flagship",
+    "description": "iPhone 15 Pro forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever.",
+    "specs": {
+      "Display": "6.1-inch Super Retina XDR OLED, 120Hz ProMotion",
+      "Processor": "Apple A17 Pro (3nm)",
+      "Camera": "48MP Main + 12MP Ultra-Wide + 12MP 3x Telephoto",
+      "Battery": "3,274 mAh with 20W Fast Charging & MagSafe",
+      "Storage": "128 GB NVMe",
+      "Build": "Aerospace-grade Titanium with Ceramic Shield",
+      "OS": "iOS 17 (Upgradeable)"
+    },
+    "pros": [
+      "Stunning aerospace-grade lightweight titanium frame",
+      "A17 Pro console-grade gaming performance",
+      "Incredible 48MP ProRAW photos and ProRes video capture",
+      "Type-C port with USB 3 high-speed data transfer"
+    ],
+    "cons": [
+      "128GB base storage on a Pro model",
+      "Charging speed capped at 25-27W"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 124990,
+        "originalPrice": 134900,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Delivery Tomorrow by 1 PM",
+        "bankOffer": "Flat ₹5,000 Instant Discount on HDFC Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CHWV2WYK"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 122999,
+        "originalPrice": 134900,
+        "discountPercent": 9,
+        "inStock": true,
+        "seller": "IndiFlashMart (Flipkart Assured)",
+        "rating": 4.8,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Extra ₹6,000 off on Axis Bank Credit Cards",
+        "returnDays": "7 Days Service Center Replacement",
+        "url": "https://www.flipkart.com/apple-iphone-15-pro-natural-titanium-128-gb/p/itm7e6ecdd036be0"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 126900,
+        "originalPrice": 134900,
+        "discountPercent": 6,
+        "inStock": true,
+        "seller": "Croma Electronics Official",
+        "rating": 4.6,
+        "delivery": "Express Store Pickup in 3 Hours",
+        "bankOffer": "Earn 1,269 Tata Neu Coins + ₹4,000 ICICI Off",
+        "returnDays": "15 Days Store Return",
+        "url": "https://www.croma.com/apple-iphone-15-pro-128gb-natural-titanium/p/300762"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 125990,
+        "originalPrice": 134900,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "Reliance ResQ Certified",
+        "rating": 4.6,
+        "delivery": "Same Day Store Dispatch",
+        "bankOffer": "10% Cashback on OneCard & SBI Credit Cards",
+        "returnDays": "7 Days Hassle-free Exchange",
+        "url": "https://www.reliancedigital.in/apple-iphone-15-pro-128-gb-natural-titanium/p/493839294"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 119999,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 134900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 126500,
+    "priceDropNotice": "Great Deal! Flipkart price is ₹3,901 below the 90-day market average.",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 134900,
+        "flipkart": 134900,
+        "croma": 134900,
+        "reliance": 134900,
+        "lowest": 134900
+      },
+      {
+        "date": "2026-08-15",
+        "amazon": 131900,
+        "flipkart": 129990,
+        "croma": 132900,
+        "reliance": 131990,
+        "lowest": 129990
+      },
+      {
+        "date": "2026-09-01",
+        "amazon": 129990,
+        "flipkart": 128499,
+        "croma": 129900,
+        "reliance": 128990,
+        "lowest": 128499
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 124999,
+        "flipkart": 119999,
+        "croma": 127900,
+        "reliance": 126990,
+        "lowest": 119999
+      },
+      {
+        "date": "2026-10-10",
+        "amazon": 126990,
+        "flipkart": 124999,
+        "croma": 127500,
+        "reliance": 127000,
+        "lowest": 124999
+      },
+      {
+        "date": "2026-10-25",
+        "amazon": 125490,
+        "flipkart": 123499,
+        "croma": 126900,
+        "reliance": 126200,
+        "lowest": 123499
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 124990,
+        "flipkart": 122999,
+        "croma": 126900,
+        "reliance": 125990,
+        "lowest": 122999
+      }
+    ]
+  },
+  {
+    "id": "prod-2",
+    "title": "Samsung Galaxy S24 Ultra 5G (12GB RAM, 256GB Storage, Titanium Gray)",
+    "brand": "Samsung",
+    "category": "Smartphones",
+    "mrp": 134999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/s/g/-resized-original-imahgfmy2zgqvjmy.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/s/g/-resized-original-imahgfmy2zgqvjmy.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/w/r/z/-original-imahgfmysgtszenh.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/j/m/z/-original-imahgfmxumntk7sy.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 2890,
+    "expertScore": 9.5,
+    "badge": "AI Powered Flagship",
+    "description": "Welcome to the era of mobile AI. With Galaxy S24 Ultra in your hands, you can unleash whole new levels of creativity, productivity and possibility starting with the most important device in your life.",
+    "specs": {
+      "Display": "6.8-inch Dynamic AMOLED 2X, Flat, 120Hz, 2600 nits Peak",
+      "Processor": "Snapdragon 8 Gen 3 for Galaxy (4nm)",
+      "Camera": "200MP Main + 50MP 5x Periscope + 12MP Ultra-Wide + 10MP 3x",
+      "Battery": "5,000 mAh with 45W Fast Charging",
+      "S-Pen": "Embedded Bluetooth S-Pen included",
+      "Armor": "Corning Gorilla Armor anti-reflective glass + Titanium Frame"
+    },
+    "pros": [
+      "Incredible anti-reflective display coating reduces glare by 75%",
+      "Phenomenal 200MP photo details and 5x/10x zoom capabilities",
+      "Galaxy AI tools: Circle to Search, Live Translate, Generative Edit",
+      "Guaranteed 7 years of Android OS and security upgrades"
+    ],
+    "cons": [
+      "Bulky square design with sharp corners",
+      "No 45W charger in the retail box"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 119999,
+        "originalPrice": 134999,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "STPL Exclusive (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE One-Day Delivery",
+        "bankOffer": "₹8,000 Instant Bank Discount on HDFC & ICICI",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CS5XWGYV"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 121999,
+        "originalPrice": 134999,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Extra ₹7,500 off via SBI Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm5fe2374b6"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 118499,
+        "originalPrice": 134999,
+        "discountPercent": 12,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.7,
+        "delivery": "Free Store Pickup in 2 Hours",
+        "bankOffer": "Flat ₹9,000 Instant HDFC Discount + NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/samsung-galaxy-s24-ultra-5g-256gb-titanium-gray/p/304212"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 119499,
+        "originalPrice": 134999,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "Reliance Digital Store",
+        "rating": 4.7,
+        "delivery": "Express 3-Hour Delivery",
+        "bankOffer": "Flat ₹8,500 Bank Cashback",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/samsung-galaxy-s24-ultra-5g-256gb/p/494352726"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 116999,
+      "store": "Croma",
+      "date": "2026-09-18"
+    },
+    "highestPriceEver": {
+      "price": 134999,
+      "store": "Reliance Digital",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 122000,
+    "priceDropNotice": "Croma currently holds the Lowest Online Price at ₹1,18,499!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 134999,
+        "flipkart": 134999,
+        "croma": 134999,
+        "reliance": 134999,
+        "lowest": 134999
+      },
+      {
+        "date": "2026-08-15",
+        "amazon": 129999,
+        "flipkart": 131999,
+        "croma": 128999,
+        "reliance": 129499,
+        "lowest": 128999
+      },
+      {
+        "date": "2026-09-01",
+        "amazon": 124999,
+        "flipkart": 125999,
+        "croma": 122999,
+        "reliance": 124999,
+        "lowest": 122999
+      },
+      {
+        "date": "2026-09-18",
+        "amazon": 121999,
+        "flipkart": 122499,
+        "croma": 116999,
+        "reliance": 120999,
+        "lowest": 116999
+      },
+      {
+        "date": "2026-10-10",
+        "amazon": 120499,
+        "flipkart": 122999,
+        "croma": 119999,
+        "reliance": 120000,
+        "lowest": 119999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 119999,
+        "flipkart": 121999,
+        "croma": 118499,
+        "reliance": 119499,
+        "lowest": 118499
+      }
+    ]
+  },
+  {
+    "id": "prod-3",
+    "title": "OnePlus 12 5G (16GB RAM, 512GB Storage, Flowy Emerald)",
+    "brand": "OnePlus",
+    "category": "Smartphones",
+    "mrp": 69999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/l/o/0/n6-5g-n6-oneplus-resized-original-imahzvfjb2q8uz3z.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/l/o/0/n6-5g-n6-oneplus-resized-original-imahzvfjb2q8uz3z.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/i/x/n6-5g-n6-oneplus-resized-original-imahzvfjuqp6kz8y.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/b/l/f/n6-lite-n6-lite-oneplus-original-imahrhh4hr3yb6qj.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 1980,
+    "expertScore": 9.1,
+    "badge": "Value Flagship King",
+    "description": "Powered by Snapdragon 8 Gen 3 with 4th Gen Hasselblad Camera system, 2K 120Hz ProXDR display, and blazing 100W SuperVOOC flash charge.",
+    "specs": {
+      "Display": "6.82-inch 2K 120Hz Oriental AMOLED, 4500 nits Peak",
+      "Processor": "Qualcomm Snapdragon 8 Gen 3",
+      "Camera": "50MP Sony LYT-808 + 64MP 3x Periscope + 48MP Ultra-Wide",
+      "Battery": "5,400 mAh with 100W Wired + 50W AIRVOOC Wireless",
+      "Cooling": "Dual Cryo-velocity VC Liquid Cooling System"
+    },
+    "pros": [
+      "Phenomenal battery life with rapid 100W charging (charger in box)",
+      "Gorgeous 4500 nit curved 2K screen with Aqua Touch",
+      "Hasselblad color science produces vibrant, true-to-life tones"
+    ],
+    "cons": [
+      "Curved edges might cause occasional palm rejection",
+      "IP65 rating instead of full IP68"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 61999,
+        "originalPrice": 69999,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "Darshita Electronics (Prime)",
+        "rating": 4.6,
+        "delivery": "FREE Next-Day Delivery",
+        "bankOffer": "Instant ₹4,000 off on ICICI Credit Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CQPNW82P"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 64999,
+        "originalPrice": 69999,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "TechSmart Assured",
+        "rating": 4.4,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "₹2,500 off on Flipkart Axis Card",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/oneplus-12-flowy-emerald-512-gb/p/itmd5b28a8"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 62499,
+        "originalPrice": 69999,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "Croma Direct",
+        "rating": 4.6,
+        "delivery": "Pickup in 3 Hours",
+        "bankOffer": "₹3,500 Instant Discount with HDFC Cards",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/oneplus-12-5g-16gb-512gb/p/304891"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 61499,
+        "originalPrice": 69999,
+        "discountPercent": 12,
+        "inStock": true,
+        "seller": "Reliance Electronics",
+        "rating": 4.7,
+        "delivery": "Express Delivery in 4 Hours",
+        "bankOffer": "Flat ₹4,500 off on BOB & SBI Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/oneplus-12-5g-flowy-emerald/p/494352110"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 59999,
+      "store": "Amazon",
+      "date": "2026-09-28"
+    },
+    "highestPriceEver": {
+      "price": 69999,
+      "store": "Flipkart",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 63500,
+    "priceDropNotice": "Reliance Digital currently has the Lowest Price at ₹61,499!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 69999,
+        "flipkart": 69999,
+        "croma": 69999,
+        "reliance": 69999,
+        "lowest": 69999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 65999,
+        "flipkart": 66999,
+        "croma": 65499,
+        "reliance": 65000,
+        "lowest": 65000
+      },
+      {
+        "date": "2026-09-10",
+        "amazon": 63999,
+        "flipkart": 65499,
+        "croma": 64000,
+        "reliance": 63500,
+        "lowest": 63500
+      },
+      {
+        "date": "2026-09-28",
+        "amazon": 59999,
+        "flipkart": 64999,
+        "croma": 62999,
+        "reliance": 62499,
+        "lowest": 59999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 61999,
+        "flipkart": 64999,
+        "croma": 62499,
+        "reliance": 61499,
+        "lowest": 61499
+      }
+    ]
+  },
+  {
+    "id": "prod-4",
+    "title": "Apple MacBook Air M3 (13.6-inch, 16GB Unified Memory, 512GB SSD, Midnight)",
+    "brand": "Apple",
+    "category": "Laptops",
+    "mrp": 134900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/8/c/u/-original-imagypv6yyg96khh.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/8/c/u/-original-imagypv6yyg96khh.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/a/q/h/-original-imagypv6prbgkfzg.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/2/v/v/-original-imagfdeqter4sj2j.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 1540,
+    "expertScore": 9.6,
+    "badge": "Best Ultrabook",
+    "description": "Lean, mean, M3 machine. With up to 18 hours of battery life and support for up to two external displays, MacBook Air is super portable and ridiculously fast.",
+    "specs": {
+      "Display": "13.6-inch Liquid Retina Display with True Tone, 500 nits",
+      "Processor": "Apple M3 chip (8-core CPU, 10-core GPU, 16-core Neural Engine)",
+      "Memory": "16 GB Unified Memory",
+      "Storage": "512 GB high-speed SSD",
+      "Battery": "Up to 18 hours battery life, MagSafe 3 charging",
+      "Weight": "Ultra-light 1.24 kg fanless silent design"
+    },
+    "pros": [
+      "Class-leading battery life lasting up to 18 hours on real workloads",
+      "Silent fanless operation with zero heat throttle in daily tasks",
+      "Crisp Liquid Retina display and industry-best trackpad",
+      "Supports two external monitors with laptop lid closed"
+    ],
+    "cons": [
+      "Port selection limited to 2x Thunderbolt / USB 4 ports",
+      "Midnight color attracts some fingerprints"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 122990,
+        "originalPrice": 134900,
+        "discountPercent": 9,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE One-Day Delivery",
+        "bankOffer": "Flat ₹7,500 Instant Cashback on ICICI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CX23G2K6"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 121490,
+        "originalPrice": 134900,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.9,
+        "delivery": "FREE Delivery by Friday",
+        "bankOffer": "₹8,000 Instant Discount on HDFC Bank Cards",
+        "returnDays": "7 Days Service Center Replacement",
+        "url": "https://www.flipkart.com/apple-macbook-air-m3-16gb-512gb/p/itme92849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 124900,
+        "originalPrice": 134900,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "Croma Official Retail",
+        "rating": 4.7,
+        "delivery": "Store Pickup available today",
+        "bankOffer": "₹7,000 Instant Discount with Tata Neu ICICI Card",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/apple-macbook-air-m3-16gb-512gb/p/305102"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 123990,
+        "originalPrice": 134900,
+        "discountPercent": 8,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.7,
+        "delivery": "Express 3-Hour Store Delivery",
+        "bankOffer": "Flat ₹7,500 off on OneCard & Federal Bank",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/apple-macbook-air-m3-13-6-inch-midnight/p/494353001"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 118990,
+      "store": "Flipkart",
+      "date": "2026-09-29"
+    },
+    "highestPriceEver": {
+      "price": 134900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 124500,
+    "priceDropNotice": "Flipkart is the Cheapest at ₹1,21,490 (Save ₹13,410 off MRP)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 134900,
+        "flipkart": 134900,
+        "croma": 134900,
+        "reliance": 134900,
+        "lowest": 134900
+      },
+      {
+        "date": "2026-08-15",
+        "amazon": 128900,
+        "flipkart": 127500,
+        "croma": 129900,
+        "reliance": 128500,
+        "lowest": 127500
+      },
+      {
+        "date": "2026-09-10",
+        "amazon": 125900,
+        "flipkart": 123900,
+        "croma": 126900,
+        "reliance": 125000,
+        "lowest": 123900
+      },
+      {
+        "date": "2026-09-29",
+        "amazon": 120990,
+        "flipkart": 118990,
+        "croma": 124900,
+        "reliance": 122900,
+        "lowest": 118990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 122990,
+        "flipkart": 121490,
+        "croma": 124900,
+        "reliance": 123990,
+        "lowest": 121490
+      }
+    ]
+  },
+  {
+    "id": "prod-5",
+    "title": "Sony WH-1000XM5 Wireless Active Noise Canceling Headphones (Silver)",
+    "brand": "Sony",
+    "category": "Audio & Headphones",
+    "mrp": 34990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/v/w/4/-original-imahq4g6z8ghgzh2.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/v/w/4/-original-imahq4g6z8ghgzh2.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/v/d/g/-original-imahgr295uvptwq7.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/o/g/7/-original-imahgr29hqgfsmww.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 4120,
+    "expertScore": 9.3,
+    "badge": "Best Noise Cancelling",
+    "description": "Industry leading noise canceling with two processors, 8 microphones, precision-engineered 30mm driver units, and 30-hour battery life with ultra quick charge.",
+    "specs": {
+      "Driver": "30mm precision carbon fiber composite dome",
+      "Noise Cancellation": "Dual Processors (Integrated V1 + HD QN1), 8 Mics",
+      "Battery Life": "30 hours (ANC on), 3 min charge gives 3 hours playback",
+      "Connectivity": "Bluetooth 5.2, Multipoint connection, LDAC, 3.5mm jack",
+      "Features": "Speak-to-Chat, Quick Attention, Auto NC Optimizer"
+    },
+    "pros": [
+      "Industry benchmark in high-frequency noise cancellation",
+      "Super comfortable lightweight fit with soft-fit leather",
+      "Superb microphone clarity with 4 beamforming mics and AI reduction",
+      "Exceptional battery life"
+    ],
+    "cons": [
+      "Headband doesn't fold inward like the older XM4",
+      "Carrying case is slightly bulkier"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 25990,
+        "originalPrice": 34990,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹2,500 Instant Discount on ICICI Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B09XS7JWHH"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 26490,
+        "originalPrice": 34990,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "FSAudio Assured",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹2,000 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/sony-wh-1000xm5-bluetooth-headset/p/itm2848c"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 24990,
+        "originalPrice": 34990,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.8,
+        "delivery": "Free Store Pickup in 3 Hours",
+        "bankOffer": "Flat ₹3,000 Instant Discount on HDFC & ICICI",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/sony-wh-1000xm5-bluetooth-headset/p/259103"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 25490,
+        "originalPrice": 34990,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "Reliance Digital Audio",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat ₹2,500 Cashback with SBI Credit Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/sony-wh-1000xm5-silver/p/492850123"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 23990,
+      "store": "Croma",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 34990,
+      "store": "Reliance Digital",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 27500,
+    "priceDropNotice": "Hot Deal! Croma offers the best price at ₹24,990 (Save ₹10,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 34990,
+        "flipkart": 34990,
+        "croma": 34990,
+        "reliance": 34990,
+        "lowest": 34990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 29990,
+        "flipkart": 29990,
+        "croma": 28990,
+        "reliance": 29490,
+        "lowest": 28990
+      },
+      {
+        "date": "2026-09-10",
+        "amazon": 27990,
+        "flipkart": 28490,
+        "croma": 26990,
+        "reliance": 27490,
+        "lowest": 26990
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 24990,
+        "flipkart": 25490,
+        "croma": 23990,
+        "reliance": 24490,
+        "lowest": 23990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 25990,
+        "flipkart": 26490,
+        "croma": 24990,
+        "reliance": 25490,
+        "lowest": 24990
+      }
+    ]
+  },
+  {
+    "id": "prod-6",
+    "title": "Apple Watch Series 9 GPS 45mm (Midnight Aluminum Case with Sport Band)",
+    "brand": "Apple",
+    "category": "Smartwatches",
+    "mrp": 44900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/h/c/3/-original-imagte4syszvbmt2.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/h/c/3/-original-imagte4syszvbmt2.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smart-watch-band-strap/0/z/1/wsm38z40bk1711-sliding-44mm-49mm-watch-strap-woven-braided-original-imahhmcy47ngjhzg.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smart-watch-band-strap/e/t/g/wsm26n40pu1711-sliding-44mm-49mm-watch-strap-woven-braided-original-imahhmbrkaffhxk7.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 1640,
+    "expertScore": 9.2,
+    "badge": "Smart Wearable Leader",
+    "description": "Smarter, brighter, mightier. Experience Double Tap gesture control, an ultra-bright 2000-nit Always-On Retina display, advanced health sensors including ECG and Blood Oxygen.",
+    "specs": {
+      "Display": "45mm Always-On Retina LTPO OLED, up to 2000 nits",
+      "Chip": "S9 SiP with 64-bit dual-core processor & 4-core Neural Engine",
+      "Sensors": "Electrical heart sensor (ECG), Third-gen optical heart sensor, Temperature sensing, Blood Oxygen",
+      "Battery": "18 hours regular, up to 36 hours in Low Power Mode",
+      "Water Resistance": "50m water resistant (swimproof)"
+    },
+    "pros": [
+      "Magical Double Tap gesture lets you answer calls one-handed",
+      "2x brighter display easily visible under direct afternoon sunlight",
+      "On-device Siri for instant health and timer queries"
+    ],
+    "cons": [
+      "Requires an iPhone to set up and use",
+      "Still needs daily or 1.5-day charging"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 38999,
+        "originalPrice": 44900,
+        "discountPercent": 13,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹3,000 Instant HDFC Card Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CHX1W31V"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 37999,
+        "originalPrice": 44900,
+        "discountPercent": 15,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹3,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/apple-watch-series-9-gps-45mm/p/itm128392"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 39900,
+        "originalPrice": 44900,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "Croma Store",
+        "rating": 4.6,
+        "delivery": "In Store Pickup in 3 Hours",
+        "bankOffer": "₹3,000 ICICI Instant Discount",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/apple-watch-series-9-45mm-midnight/p/300890"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 38490,
+        "originalPrice": 44900,
+        "discountPercent": 14,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.7,
+        "delivery": "Express 4-Hour Delivery",
+        "bankOffer": "Flat 10% Cashback up to ₹3,500",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/apple-watch-series-9-45mm/p/493839901"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 35999,
+      "store": "Flipkart",
+      "date": "2026-09-26"
+    },
+    "highestPriceEver": {
+      "price": 44900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 39500,
+    "priceDropNotice": "Flipkart currently leads with Lowest Price of ₹37,999!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 44900,
+        "flipkart": 44900,
+        "croma": 44900,
+        "reliance": 44900,
+        "lowest": 44900
+      },
+      {
+        "date": "2026-08-25",
+        "amazon": 41999,
+        "flipkart": 40999,
+        "croma": 42490,
+        "reliance": 41500,
+        "lowest": 40999
+      },
+      {
+        "date": "2026-09-26",
+        "amazon": 37499,
+        "flipkart": 35999,
+        "croma": 38900,
+        "reliance": 37900,
+        "lowest": 35999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 38999,
+        "flipkart": 37999,
+        "croma": 39900,
+        "reliance": 38490,
+        "lowest": 37999
+      }
+    ]
+  },
+  {
+    "id": "prod-7",
+    "title": "Sony Bravia XR 65-inch 4K Ultra HD Smart Google TV (XR-65X90L)",
+    "brand": "Sony",
+    "category": "Smart TVs",
+    "mrp": 179900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/j/p/s/-resized-original-imahhea7zqgyrcfk.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/j/p/s/-resized-original-imahhea7zqgyrcfk.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/n/d/e/-resized-original-imahcsfhfmxa5kwk.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/t/l/e/-resized-original-imahgfyuvjhgg4zf.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 890,
+    "expertScore": 9.4,
+    "badge": "Cinema Visual King",
+    "description": "Cognitive Processor XR delivers life-like contrast, billion accurate colors with XR Triluminos Pro, and acoustic surface audio paired with PlayStation 5 auto-HDR optimization.",
+    "specs": {
+      "Display": "65-inch Full Array LED, 4K 3840 x 2160, 120Hz Refresh Rate",
+      "Processor": "Cognitive Processor XR with XR Clear Image",
+      "Gaming": "HDMI 2.1, 4K 120Hz, VRR, ALLM, Auto HDR Tone Mapping",
+      "Audio": "Acoustic Multi-Audio, 30W Sound Output, Dolby Atmos, DTS Digital",
+      "Smart OS": "Google TV with Apple AirPlay 2 and HomeKit"
+    },
+    "pros": [
+      "Breathtaking HDR highlights with Full Array local dimming",
+      "Best-in-class motion clarity for live sports and action movies",
+      "Dedicated gaming dashboard with PS5 exclusive features"
+    ],
+    "cons": [
+      "Only 2 of the 4 HDMI ports support full HDMI 2.1 4K 120Hz",
+      "Heavy unit requiring strong wall mounting support"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 132990,
+        "originalPrice": 179900,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "DAWNTECH ELECTRONICS (Prime)",
+        "rating": 4.7,
+        "delivery": "Free Installation & Delivery in 48 Hours",
+        "bankOffer": "₹8,000 Instant Bank Offer on HDFC & SBI",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0C8VBRGLT"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 134990,
+        "originalPrice": 179900,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.6,
+        "delivery": "Delivery & Demo within 3 Days",
+        "bankOffer": "Extra ₹7,500 off on Axis Bank Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com/sony-bravia-xr-65-inch-4k/p/itm284920"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 129990,
+        "originalPrice": 179900,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.8,
+        "delivery": "Next Day Installation by Croma Tech Experts",
+        "bankOffer": "Flat ₹10,000 Instant Discount with ICICI Cards",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/sony-bravia-xr-65-inch-xr-65x90l/p/273940"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 130990,
+        "originalPrice": 179900,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "Reliance ResQ Certified",
+        "rating": 4.7,
+        "delivery": "Express 24-Hour Delivery & Demo",
+        "bankOffer": "Flat ₹9,500 off with OneCard",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/sony-bravia-65-inch-xr-65x90l/p/493838290"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 126990,
+      "store": "Croma",
+      "date": "2026-09-20"
+    },
+    "highestPriceEver": {
+      "price": 179900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 135000,
+    "priceDropNotice": "Croma offers the best price at ₹1,29,990 (Flat ₹50,000 off MRP)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 179900,
+        "flipkart": 179900,
+        "croma": 179900,
+        "reliance": 179900,
+        "lowest": 179900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 144990,
+        "flipkart": 146990,
+        "croma": 141990,
+        "reliance": 142990,
+        "lowest": 141990
+      },
+      {
+        "date": "2026-09-20",
+        "amazon": 131990,
+        "flipkart": 133990,
+        "croma": 126990,
+        "reliance": 128990,
+        "lowest": 126990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 132990,
+        "flipkart": 134990,
+        "croma": 129990,
+        "reliance": 130990,
+        "lowest": 129990
+      }
+    ]
+  },
+  {
+    "id": "prod-8",
+    "title": "Sony PlayStation 5 Slim Console (1TB Storage, Disc Edition)",
+    "brand": "Sony",
+    "category": "Gaming & Consoles",
+    "mrp": 54990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/gamingconsole/u/v/u/-original-imahqc7cgygjbwub.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/gamingconsole/u/v/u/-original-imahqc7cgygjbwub.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/gamingconsole/f/z/i/slim-pro-models-instantly-play-ps4-ps5-game-discs-na-sony-ps5-original-imahqzz79hzwwzny.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/gamingconsole/q/m/b/-original-imahpdv6z68vydnx.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 5210,
+    "expertScore": 9.7,
+    "badge": "Gamer Favorite",
+    "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.",
+    "specs": {
+      "Storage": "1TB Custom NVMe SSD (Expandable with M.2 SSD slot)",
+      "Performance": "AMD Zen 2 8-core CPU, RDNA 2 GPU with 10.28 TFLOPs, 16GB GDDR6",
+      "Video Output": "4K 120Hz, 8K support, HDR, Ray Tracing",
+      "Disc Drive": "Ultra HD Blu-ray Disc player built-in",
+      "Controller": "DualSense Wireless Controller with Haptic Feedback & Adaptive Triggers"
+    },
+    "pros": [
+      "Massive 1TB internal SSD with fast 5.5 GB/s transfer speeds",
+      "30% smaller volume and lighter footprint than original PS5",
+      "Incredible exclusives library: Spider-Man 2, God of War Ragnarok, Gran Turismo 7"
+    ],
+    "cons": [
+      "Vertical stand sold separately in Slim version",
+      "High power consumption during peak 4K 120fps gaming"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 49990,
+        "originalPrice": 54990,
+        "discountPercent": 9,
+        "inStock": true,
+        "seller": "Electronics Bazaar (Prime)",
+        "rating": 4.9,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹4,000 Instant Bank Offer on SBI & HDFC",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CY5QW6R6"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 49490,
+        "originalPrice": 54990,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.8,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹4,500 off with Flipkart Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/sony-playstation-5-slim-disc-edition/p/itm28489"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 51990,
+        "originalPrice": 54990,
+        "discountPercent": 5,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.8,
+        "delivery": "In Store Pickup Available in 2 Hours",
+        "bankOffer": "Flat ₹3,000 off + 500 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/sony-playstation-5-slim-1tb-disc/p/306129"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 48990,
+        "originalPrice": 54990,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "Reliance Gaming Hub",
+        "rating": 4.9,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat ₹5,000 Instant Discount with OneCard",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/sony-playstation-5-slim-1tb-disc/p/494353110"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 47990,
+      "store": "Reliance Digital",
+      "date": "2026-09-27"
+    },
+    "highestPriceEver": {
+      "price": 54990,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 51000,
+    "priceDropNotice": "Reliance Digital offers the lowest price at ₹48,990 (Save ₹6,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 54990,
+        "flipkart": 54990,
+        "croma": 54990,
+        "reliance": 54990,
+        "lowest": 54990
+      },
+      {
+        "date": "2026-08-25",
+        "amazon": 52990,
+        "flipkart": 51990,
+        "croma": 53990,
+        "reliance": 50990,
+        "lowest": 50990
+      },
+      {
+        "date": "2026-09-27",
+        "amazon": 49990,
+        "flipkart": 49490,
+        "croma": 51990,
+        "reliance": 47990,
+        "lowest": 47990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 49990,
+        "flipkart": 49490,
+        "croma": 51990,
+        "reliance": 48990,
+        "lowest": 48990
+      }
+    ]
+  },
+  {
+    "id": "prod-9",
+    "title": "Apple iPad Pro 11-inch M4 chip (Wi-Fi, 256GB, Space Black)",
+    "brand": "Apple",
+    "category": "Tablets",
+    "mrp": 99900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/tablet/r/v/t/-original-imahfey6vqsdzscr.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/tablet/r/v/t/-original-imahfey6vqsdzscr.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/keyboard/tablet-keyboard/f/x/p/mwr03hn-a-apple-original-imahfa3ghrnzrv7n.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/tablet/i/8/l/-original-imahrgc46z6z8ktf.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 1120,
+    "expertScore": 9.6,
+    "badge": "Ultra Thin Powerhouse",
+    "description": "The groundbreaking Ultra Retina XDR display with tandem OLED technology, monstrous M4 chip performance, and impossibly thin 5.3mm design.",
+    "specs": {
+      "Display": "11-inch Ultra Retina XDR Tandem OLED, 1000 nits full screen, 1600 nits peak HDR",
+      "Processor": "Apple M4 chip (9-core CPU, 10-core GPU, Hardware-accelerated Ray Tracing)",
+      "Storage": "256GB NVMe",
+      "Thickness": "Only 5.3mm thin - thinnest Apple product ever",
+      "Camera": "12MP Wide back camera with LiDAR scanner + Landscape 12MP Ultra-Wide front",
+      "Accessories Support": "Apple Pencil Pro, Magic Keyboard with function keys"
+    },
+    "pros": [
+      "Tandem OLED panel delivers deep blacks and blinding HDR highlights",
+      "Insanely thin and featherweight in hands",
+      "M4 processor crushes 4K video rendering and 3D modeling effortlessly"
+    ],
+    "cons": [
+      "iPadOS still limits desktop-class window management",
+      "Pencil Pro and Magic Keyboard add significant extra cost"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 93900,
+        "originalPrice": 99900,
+        "discountPercent": 6,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.9,
+        "delivery": "FREE Tomorrow by 11 AM",
+        "bankOffer": "₹5,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0D3J7L99F"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 92999,
+        "originalPrice": 99900,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.8,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹5,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/apple-ipad-pro-11-inch-m4-256gb/p/itm28491"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 94900,
+        "originalPrice": 99900,
+        "discountPercent": 5,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.7,
+        "delivery": "Store Pickup in 2 Hours",
+        "bankOffer": "Earn 949 Tata NeuCoins + ₹4,000 HDFC Cashback",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/apple-ipad-pro-11-m4-256gb/p/306782"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 91990,
+        "originalPrice": 99900,
+        "discountPercent": 8,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.8,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat ₹6,000 Instant Discount on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/apple-ipad-pro-11-inch-m4-256gb/p/494353890"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 89990,
+      "store": "Reliance Digital",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 99900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 94500,
+    "priceDropNotice": "Reliance Digital leads the race at ₹91,990!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 99900,
+        "flipkart": 99900,
+        "croma": 99900,
+        "reliance": 99900,
+        "lowest": 99900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 96900,
+        "flipkart": 95900,
+        "croma": 97500,
+        "reliance": 95400,
+        "lowest": 95400
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 92900,
+        "flipkart": 91490,
+        "croma": 94900,
+        "reliance": 89990,
+        "lowest": 89990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 93900,
+        "flipkart": 92999,
+        "croma": 94900,
+        "reliance": 91990,
+        "lowest": 91990
+      }
+    ]
+  },
+  {
+    "id": "prod-10",
+    "title": "Dyson V12 Detect Slim Total Clean Cordless Vacuum Cleaner",
+    "brand": "Dyson",
+    "category": "Home Appliances",
+    "mrp": 65900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/vacuum-cleaner/s/r/v/v12s-detect-slim-submarine-wet-and-dry-vacuum-cleaner-dyson-original-imagrfzscrpchh66.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/vacuum-cleaner/s/r/v/v12s-detect-slim-submarine-wet-and-dry-vacuum-cleaner-dyson-original-imagrfzscrpchh66.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/vacuum-cleaner/h/i/y/-original-imagpyf7grpbsb2e.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/vacuum-cleaner-filter/7/y/x/200-dyson-v11-v13-v15-keyisha-resized-original-imahfbwk3thr2r8h.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 1450,
+    "expertScore": 9.3,
+    "badge": "Smart Home Star",
+    "description": "Dyson's most powerful, lightweight cordless vacuum with illuminated cleaner head revealing invisible dust, piezo sensor scientific proof of a deep clean, and 60 minutes run time.",
+    "specs": {
+      "Suction Power": "150 Air Watts with Dyson Hyperdymium Motor",
+      "Weight": "Ultra-light 2.2 kg handheld weight",
+      "Run Time": "Up to 60 minutes fade-free power",
+      "Filtration": "Whole-machine filtration capturing 99.99% of microscopic particles down to 0.3 microns",
+      "Technology": "Fluffy Optic cleaner head reveals invisible dust on hard floors"
+    },
+    "pros": [
+      "Green laser illuminates micro-dust impossible to see with naked eye",
+      "Single-button power control without needing to hold a trigger",
+      "LCD screen displays real-time particle count breakdown and battery run time"
+    ],
+    "cons": [
+      "0.35L dust bin requires frequent emptying in large houses",
+      "Premium price tag"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 49900,
+        "originalPrice": 65900,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "Dyson India Official (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹4,000 Instant ICICI Bank Discount",
+        "returnDays": "10 Days Return",
+        "url": "https://www.amazon.in/dp/B09T3547D2"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 52990,
+        "originalPrice": 65900,
+        "discountPercent": 20,
+        "inStock": true,
+        "seller": "OmniTechHome Assured",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹3,000 off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/dyson-v12-detect-slim-cordless-vacuum/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 48900,
+        "originalPrice": 65900,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "Croma Direct Retail",
+        "rating": 4.8,
+        "delivery": "Store Pickup available in 2 Hours",
+        "bankOffer": "₹5,000 Instant Discount with HDFC & ICICI",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/dyson-v12-detect-slim-cordless-vacuum/p/260192"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 49490,
+        "originalPrice": 65900,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Reliance ResQ Home",
+        "rating": 4.7,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat ₹4,500 Instant Discount on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/dyson-v12-detect-slim-cordless-vacuum/p/492850981"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 46900,
+      "store": "Croma",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 65900,
+      "store": "Flipkart",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 51200,
+    "priceDropNotice": "Croma has the Lowest Online Price at ₹48,900 (Save ₹17,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 65900,
+        "flipkart": 65900,
+        "croma": 65900,
+        "reliance": 65900,
+        "lowest": 65900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 56900,
+        "flipkart": 57900,
+        "croma": 54900,
+        "reliance": 55900,
+        "lowest": 54900
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 48900,
+        "flipkart": 51900,
+        "croma": 46900,
+        "reliance": 47990,
+        "lowest": 46900
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 49900,
+        "flipkart": 52990,
+        "croma": 48900,
+        "reliance": 49490,
+        "lowest": 48900
+      }
+    ]
+  },
+  {
+    "id": "prod-11",
+    "title": "Apple AirPods Pro (2nd Generation) with USB-C Charging Case",
+    "brand": "Apple",
+    "category": "Audio & Headphones",
+    "mrp": 24900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/w/b/q/earbuds-pro-2-2nd-generation-best-premium-quality-09-usb-c-original-imahfge5dhacfeka.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/w/b/q/earbuds-pro-2-2nd-generation-best-premium-quality-09-usb-c-original-imahfge5dhacfeka.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/9/i/n/earbuds-pro-2-2nd-generation-best-premium-quality-usb-c-sx29-original-imahfshagdywusyu.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/l/n/y/pro-2-2nd-generation-earbuds-type-c-fast-charge-anc-30-usb-c-original-imahgmzngkgpagvf.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 3890,
+    "expertScore": 9.5,
+    "badge": "Top True Wireless Earbuds",
+    "description": "Up to 2x more Active Noise Cancellation, Adaptive Audio, Transparency mode, and Personalized Spatial Audio with dynamic head tracking. Now with MagSafe Charging Case (USB-C).",
+    "specs": {
+      "Audio": "Apple H2 headphone chip, custom high-excursion Apple driver",
+      "Noise Cancellation": "Pro-level Active Noise Cancellation with Adaptive Audio",
+      "Case": "MagSafe Case (USB-C) with speaker and lanyard loop, Precision Finding U1 chip",
+      "Battery": "Up to 6 hours listening time (up to 30 hours with case)",
+      "Dust & Water Resistance": "IP54 rated earbuds and charging case"
+    },
+    "pros": [
+      "Incredible Adaptive Audio seamlessly blends ANC and Transparency",
+      "Crystal clear mic isolation for phone calls and Zoom meetings",
+      "Find My case with built-in speaker and precision direction tracking"
+    ],
+    "cons": [
+      "Most features require an iOS device to customize",
+      "Touch volume swipe takes slight learning curve"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 18999,
+        "originalPrice": 24900,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "Flat ₹2,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0CHWRXH8B"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 18499,
+        "originalPrice": 24900,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.8,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹2,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com/apple-airpods-pro-2nd-gen-usb-c/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 19900,
+        "originalPrice": 24900,
+        "discountPercent": 20,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.7,
+        "delivery": "In Store Pickup Available in 2 Hours",
+        "bankOffer": "₹2,000 Instant Discount with HDFC Cards",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/apple-airpods-pro-2nd-gen-usb-c/p/300768"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 19290,
+        "originalPrice": 24900,
+        "discountPercent": 23,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.7,
+        "delivery": "Express 3-Hour Delivery",
+        "bankOffer": "Flat ₹2,000 Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/apple-airpods-pro-2nd-gen-usb-c/p/493839299"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 17499,
+      "store": "Flipkart",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 24900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 20100,
+    "priceDropNotice": "Flipkart offers the lowest deal at ₹18,499!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 24900,
+        "flipkart": 24900,
+        "croma": 24900,
+        "reliance": 24900,
+        "lowest": 24900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 21990,
+        "flipkart": 21499,
+        "croma": 22490,
+        "reliance": 21990,
+        "lowest": 21499
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 18999,
+        "flipkart": 17499,
+        "croma": 20900,
+        "reliance": 19990,
+        "lowest": 17499
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 18999,
+        "flipkart": 18499,
+        "croma": 19900,
+        "reliance": 19290,
+        "lowest": 18499
+      }
+    ]
+  },
+  {
+    "id": "prod-12",
+    "title": "LG 55-inch 4K OLED Smart TV (OLED55C3PSA)",
+    "brand": "LG",
+    "category": "Smart TVs",
+    "mrp": 189990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/h/4/a/-resized-original-imahpx29axejerah.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/h/4/a/-resized-original-imahpx29axejerah.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/l/4/r/-resized-original-imahpx29thfyz9tt.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/television/l/f/k/-original-imahgt5gx9bfryc7.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 1180,
+    "expertScore": 9.7,
+    "badge": "Ultimate OLED Display",
+    "description": "Self-lit OLED evo with Brightness Booster, α9 AI Processor Gen6, 4x HDMI 2.1 ports with G-Sync & FreeSync, and Dolby Vision IQ with Dolby Atmos.",
+    "specs": {
+      "Display": "55-inch 4K Self-Lit OLED evo, Infinite Contrast, 100% Color Fidelity, 120Hz",
+      "Processor": "α9 AI Processor 4K Gen6",
+      "Gaming": "4x HDMI 2.1 ports (4K 120Hz), 0.1ms response time, NVIDIA G-Sync, AMD FreeSync",
+      "Audio": "40W 2.2 Channel Sound, AI Sound Pro (Virtual 9.1.2 Up-mix)",
+      "Smart OS": "webOS 23 with ThinQ AI, Magic Remote included"
+    },
+    "pros": [
+      "Infinite contrast ratio with pitch-black levels impossible on LED TVs",
+      "All 4 HDMI ports are full-bandwidth HDMI 2.1 (ideal for Xbox + PS5 + PC)",
+      "Magic Remote with intuitive air-mouse pointer cursor"
+    ],
+    "cons": [
+      "Glass panel has subtle reflections in bright sunlit rooms",
+      "OLED care required to prevent potential static element retention"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 114990,
+        "originalPrice": 189990,
+        "discountPercent": 39,
+        "inStock": true,
+        "seller": "RetailEZ India (Prime)",
+        "rating": 4.8,
+        "delivery": "Free Delivery & Demo within 48 Hours",
+        "bankOffer": "Flat ₹9,000 Instant HDFC Card Discount",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B0C8V291KC"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 116990,
+        "originalPrice": 189990,
+        "discountPercent": 38,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "₹8,500 off on Axis Bank Cards",
+        "returnDays": "10 Days Service Replacement",
+        "url": "https://www.flipkart.com/lg-oled-55-inch-c3/p/itm28490"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 112990,
+        "originalPrice": 189990,
+        "discountPercent": 41,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.9,
+        "delivery": "Next Day Installation by Certified Engineers",
+        "bankOffer": "Flat ₹10,000 Instant Discount on ICICI Cards",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/lg-c3-55-inch-oled-4k/p/272990"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 113490,
+        "originalPrice": 189990,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.8,
+        "delivery": "Express 24-Hour Delivery & Demo",
+        "bankOffer": "Flat ₹10,000 off on OneCard & Federal Bank",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/lg-oled55c3psa-55-inch-oled-4k/p/493838112"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 109990,
+      "store": "Croma",
+      "date": "2026-09-21"
+    },
+    "highestPriceEver": {
+      "price": 189990,
+      "store": "Flipkart",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 119500,
+    "priceDropNotice": "Massive 41% Discount! Croma has it for ₹1,12,990 (Save ₹77,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 189990,
+        "flipkart": 189990,
+        "croma": 189990,
+        "reliance": 189990,
+        "lowest": 189990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 129990,
+        "flipkart": 131990,
+        "croma": 126990,
+        "reliance": 128990,
+        "lowest": 126990
+      },
+      {
+        "date": "2026-09-21",
+        "amazon": 114990,
+        "flipkart": 117990,
+        "croma": 109990,
+        "reliance": 112990,
+        "lowest": 109990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 114990,
+        "flipkart": 116990,
+        "croma": 112990,
+        "reliance": 113490,
+        "lowest": 112990
+      }
+    ]
+  },
+  {
+    "id": "prod-13",
+    "title": "Nike Air Force 1 '07 Low Casual Sneakers (Triple White)",
+    "brand": "Nike",
+    "category": "Fashion",
+    "mrp": 9695,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kids-shoe/d/q/i/6-5-fv6367-102-nike-original-imahhdv6xxgxqzbh.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/kids-shoe/d/q/i/6-5-fv6367-102-nike-original-imahhdv6xxgxqzbh.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/4/8/u/-watermarked-original-imahha93ggh6ydmc.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/w/2/1/7-n1997-41-snugz-white-original-imahnfnwzqzhg4bt.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 3820,
+    "expertScore": 9.3,
+    "badge": "Iconic Streetwear",
+    "description": "The radiance lives on with the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on crisp stitched overlays, bold details and the perfect amount of hoops flair.",
+    "specs": {
+      "Upper Material": "Premium Full-Grain Stitched Leather",
+      "Sole Material": "Non-marking Rubber cupsole with Pivot Circle",
+      "Cushioning": "Nike Air-Sole encapsulated unit in heel",
+      "Closure": "Lace-Up with metallic AF-1 deubré",
+      "Style Code": "CW2288-111"
+    },
+    "pros": [
+      "Timeless, universally versatile triple-white aesthetic",
+      "Durable stitched leather upper that ages gracefully",
+      "Plush padded low-cut collar for all-day ankle comfort"
+    ],
+    "cons": [
+      "White leather requires regular wipe-down care",
+      "Slight break-in period required during initial wears"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 8495,
+        "originalPrice": 9695,
+        "discountPercent": 12,
+        "inStock": true,
+        "seller": "Nike Authorized Retail (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Delivery Tomorrow",
+        "bankOffer": "10% Instant Discount on HDFC Credit Cards",
+        "returnDays": "10 Days Return/Exchange",
+        "url": "https://www.amazon.in/dp/B08N5N4331"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 8199,
+        "originalPrice": 9695,
+        "discountPercent": 15,
+        "inStock": true,
+        "seller": "SuperComNet Assured",
+        "rating": 4.8,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Extra ₹500 off on Axis Bank Flipkart Card",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com/nike-air-force-1-07/p/itm5fe2374b6"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 8995,
+        "originalPrice": 9695,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "Croma Lifestyle Hub",
+        "rating": 4.6,
+        "delivery": "Store Pickup available in 2 Hours",
+        "bankOffer": "Earn 180 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/nike-air-force-1-white/p/309102"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 8690,
+        "originalPrice": 9695,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "Trends / Reliance Retail",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% Cashback with SBI Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/nike-air-force-1/p/493839211"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 7999,
+      "store": "Flipkart",
+      "date": "2026-09-27"
+    },
+    "highestPriceEver": {
+      "price": 9695,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 8600,
+    "priceDropNotice": "Flipkart offers the lowest price at ₹8,199 (Save ₹1,496)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 9695,
+        "flipkart": 9695,
+        "croma": 9695,
+        "reliance": 9695,
+        "lowest": 9695
+      },
+      {
+        "date": "2026-08-25",
+        "amazon": 8995,
+        "flipkart": 8790,
+        "croma": 9190,
+        "reliance": 8990,
+        "lowest": 8790
+      },
+      {
+        "date": "2026-09-27",
+        "amazon": 8495,
+        "flipkart": 7999,
+        "croma": 8995,
+        "reliance": 8690,
+        "lowest": 7999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 8495,
+        "flipkart": 8199,
+        "croma": 8995,
+        "reliance": 8690,
+        "lowest": 8199
+      }
+    ]
+  },
+  {
+    "id": "prod-14",
+    "title": "Levi's Men's 511 Slim Fit Stretchable Denim Jeans (Dark Indigo)",
+    "brand": "Levi's",
+    "category": "Fashion",
+    "mrp": 4199,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/u/v/i/-original-imahq7yhzthaca3j.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/u/v/i/-original-imahq7yhzthaca3j.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/a/w/q/-original-imahrrmrfnag8q4n.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/jean/q/y/g/-original-imah2mvu295jjfk2.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 5210,
+    "expertScore": 9.1,
+    "badge": "Bestselling Denim",
+    "description": "A modern slim with room to move. Levi's 511 Slim Fit Jeans are an essential everyday denim with built-in stretch technology for maximum comfort and flexibility.",
+    "specs": {
+      "Fit": "Slim from hip to ankle",
+      "Fabric": "99% Cotton, 1% Elastane Stretch Denim",
+      "Rise": "Mid Rise with Zip Fly & Button Closure",
+      "Pockets": "Classic 5-pocket styling with signature Arcuate stitching",
+      "Wash": "Dark Indigo Enzymatic Stone Wash"
+    },
+    "pros": [
+      "Perfect balance between skinny and straight leg silhouettes",
+      "High recovery elastane ensures shape retention without bagging",
+      "Authentic heavy-duty Levi's copper rivets and leather brand patch"
+    ],
+    "cons": [
+      "Inseam sizing runs slightly longer for shorter frames",
+      "Wash inside out to prevent color transfer"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 2299,
+        "originalPrice": 4199,
+        "discountPercent": 45,
+        "inStock": true,
+        "seller": "Cloudtail Fashion (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Next Day Delivery",
+        "bankOffer": "₹200 Instant Cashback with Amazon Pay",
+        "returnDays": "10 Days Return & Size Exchange",
+        "url": "https://www.amazon.in/dp/B07N3K44D3"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 2099,
+        "originalPrice": 4199,
+        "discountPercent": 50,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "Extra 10% off with SuperCoins",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com/levis-511-slim-fit/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 2599,
+        "originalPrice": 4199,
+        "discountPercent": 38,
+        "inStock": true,
+        "seller": "Tata CLiQ / Croma Fashion",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/levis-511-jeans/p/308291"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 2199,
+        "originalPrice": 4199,
+        "discountPercent": 48,
+        "inStock": true,
+        "seller": "Trends Reliance Retail",
+        "rating": 4.7,
+        "delivery": "Store Dispatch in 24 Hours",
+        "bankOffer": "Flat 10% off with BOB Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/levis-511-denim/p/493839810"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 1899,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 4199,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 2450,
+    "priceDropNotice": "50% Discount! Flipkart leads at ₹2,099 (Save ₹2,100)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 4199,
+        "flipkart": 4199,
+        "croma": 4199,
+        "reliance": 4199,
+        "lowest": 4199
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 2799,
+        "flipkart": 2699,
+        "croma": 2999,
+        "reliance": 2749,
+        "lowest": 2699
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 2199,
+        "flipkart": 1899,
+        "croma": 2699,
+        "reliance": 2299,
+        "lowest": 1899
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 2299,
+        "flipkart": 2099,
+        "croma": 2599,
+        "reliance": 2199,
+        "lowest": 2099
+      }
+    ]
+  },
+  {
+    "id": "prod-15",
+    "title": "Ray-Ban Aviator Classic Polarized Sunglasses (Gold Frame / Green G-15)",
+    "brand": "Ray-Ban",
+    "category": "Fashion",
+    "mrp": 11590,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/sunglass/m/e/i/free-size-bg-4414-a14-stylish-guys-original-imahdyjzaff9aegz.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sunglass/m/e/i/free-size-bg-4414-a14-stylish-guys-original-imahdyjzaff9aegz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sunglass/l/t/y/ray-large-ban-sun-lk-3026-mirror-glass-aviator-a9-louis-kouros-resized-original-imah2enn84apurgd.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/sunglass/l/r/d/free-size-sun-lk-3517-mirror-glass-aviator-a5-louis-kouros-resized-original-imahdqgmgzyv2vjs.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 2140,
+    "expertScore": 9.6,
+    "badge": "Heritage Classic",
+    "description": "Currently one of the most iconic sunglass models in the world, Ray-Ban Aviator Classic sunglasses were originally designed for U.S. aviators in 1937 with crystal polarized G-15 lenses.",
+    "specs": {
+      "Frame Material": "Corrosion-resistant Polished Gold Metal",
+      "Lens Technology": "Polarized Mineral Crystal Green G-15",
+      "UV Protection": "100% UV400 Protection (Eliminates 99% Glare)",
+      "Size": "Standard 58mm Lens Width / 14mm Bridge",
+      "Accessories": "Leather case, cleaning cloth, authenticity cert"
+    },
+    "pros": [
+      "Crystal-clear polarization cuts intense sunlight glare completely",
+      "Timeless teardrop pilot shape flatters almost all face structures",
+      "Solid metal construction built to last for decades"
+    ],
+    "cons": [
+      "Mineral glass lenses carry slight weight over polycarbonate",
+      "Adjustable nose pads need gentle cleaning"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 8990,
+        "originalPrice": 11590,
+        "discountPercent": 22,
+        "inStock": true,
+        "seller": "Luxottica India Authorized (Prime)",
+        "rating": 4.9,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹1,000 Instant ICICI Bank Discount",
+        "returnDays": "10 Days Returnable",
+        "url": "https://www.amazon.in/dp/B00080FG6A"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 9290,
+        "originalPrice": 11590,
+        "discountPercent": 20,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "5% Unlimited Cashback on Flipkart Axis Card",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com/ray-ban-aviator-polarized/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 9990,
+        "originalPrice": 11590,
+        "discountPercent": 14,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.6,
+        "delivery": "Express Store Pickup",
+        "bankOffer": "Earn 200 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/ray-ban-aviator-gold/p/309991"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 8790,
+        "originalPrice": 11590,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "Reliance Retail Hub",
+        "rating": 4.8,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat ₹1,000 off with OneCard",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/ray-ban-aviator-polarized/p/493839712"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 8490,
+      "store": "Reliance Digital",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 11590,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 9300,
+    "priceDropNotice": "Reliance Digital offers the lowest price at ₹8,790 (Save ₹2,800)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 11590,
+        "flipkart": 11590,
+        "croma": 11590,
+        "reliance": 11590,
+        "lowest": 11590
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 9990,
+        "flipkart": 10190,
+        "croma": 10490,
+        "reliance": 9790,
+        "lowest": 9790
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 8990,
+        "flipkart": 9190,
+        "croma": 9990,
+        "reliance": 8490,
+        "lowest": 8490
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 8990,
+        "flipkart": 9290,
+        "croma": 9990,
+        "reliance": 8790,
+        "lowest": 8790
+      }
+    ]
+  },
+  {
+    "id": "prod-16",
+    "title": "Philips Digital Air Fryer HD9252/90 with Rapid Air Technology (4.1 L)",
+    "brand": "Philips",
+    "category": "Kitchen",
+    "mrp": 12995,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/air-fryer/b/k/s/black-12-1800-air-fryer-oven-for-home-360-rapid-hot-air-original-imahkrhhqvgzypcp.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/air-fryer/b/k/s/black-12-1800-air-fryer-oven-for-home-360-rapid-hot-air-original-imahkrhhqvgzypcp.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/air-fryer/c/q/a/black-8-4-1700-digital-dual-basket-air-fryer-oven-with-easy-view-original-imah7nyu7abtvmcq.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/air-fryer/c/n/4/-original-imahqwjzsmcurjzj.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 6890,
+    "expertScore": 9.4,
+    "badge": "Healthy Kitchen Must-Have",
+    "description": "Great tasting fries with up to 90% less fat. Features patented Rapid Air Technology, 7 touchscreen presets, Keep Warm function, and NutriU recipe app integration.",
+    "specs": {
+      "Capacity": "4.1 Litres (Serves 4-5 people)",
+      "Power": "1400 Watts with 1.8m Cord",
+      "Technology": "Rapid Air Starfish Design for 360° crispiness",
+      "Presets": "7 Pre-set cooking menus (Fries, Chicken, Fish, Cake)",
+      "Cleaning": "Dishwasher-safe QuickClean basket with non-stick coating"
+    },
+    "pros": [
+      "Uses little to zero oil for ultra-crispy snacks and roasted veggies",
+      "Intuitive digital touchscreen with precise temperature controls",
+      "Quick 5-minute pre-heat and very easy basket cleanup"
+    ],
+    "cons": [
+      "Initial burn-off smell on very first 10-minute setup cycle",
+      "Requires adequate rear clearance for heat exhaust"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 7499,
+        "originalPrice": 12995,
+        "discountPercent": 42,
+        "inStock": true,
+        "seller": "Philips Domestic Appliances (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹750 Instant Discount on SBI Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B091J38DDT"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 7799,
+        "originalPrice": 12995,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "5% Cashback on Flipkart Axis Card",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/philips-hd9252-air-fryer/p/itm5fe23"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 7299,
+        "originalPrice": 12995,
+        "discountPercent": 44,
+        "inStock": true,
+        "seller": "Croma Electronics Official",
+        "rating": 4.8,
+        "delivery": "In Store Pickup Available in 2 Hours",
+        "bankOffer": "Flat ₹500 off with ICICI Netbanking",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/philips-hd9252-digital-air-fryer/p/243102"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 7399,
+        "originalPrice": 12995,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "Reliance ResQ Kitchen",
+        "rating": 4.7,
+        "delivery": "Express 3-Hour Store Dispatch",
+        "bankOffer": "10% Cashback on HDFC Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/philips-hd9252-air-fryer/p/492850391"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 6999,
+      "store": "Croma",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 12995,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 7900,
+    "priceDropNotice": "Croma currently holds the Lowest Price at ₹7,299 (Save ₹5,696)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 12995,
+        "flipkart": 12995,
+        "croma": 12995,
+        "reliance": 12995,
+        "lowest": 12995
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 8499,
+        "flipkart": 8699,
+        "croma": 8299,
+        "reliance": 8399,
+        "lowest": 8299
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 7299,
+        "flipkart": 7499,
+        "croma": 6999,
+        "reliance": 7199,
+        "lowest": 6999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 7499,
+        "flipkart": 7799,
+        "croma": 7299,
+        "reliance": 7399,
+        "lowest": 7299
+      }
+    ]
+  },
+  {
+    "id": "prod-17",
+    "title": "Prestige Iris 750W Mixer Grinder with 3 Stainless Steel Jars + Transparent Juicer Jar",
+    "brand": "Prestige",
+    "category": "Kitchen",
+    "mrp": 6295,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mixer-grinder-juicer/i/y/m/apex-prestige-resized-original-imahgvapfhecmczn.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mixer-grinder-juicer/i/y/m/apex-prestige-resized-original-imahgvapfhecmczn.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mixer-grinder-juicer/o/e/k/ergon-prestige-resized-original-imah755wer3mvh4d.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mixer-grinder-juicer/9/f/f/astra-stainless-steel-jars-3u-juicer-jar-1u-mix-o-keep-jar-1u-resized-original-imahdy3p3rtjzkz8.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 8940,
+    "expertScore": 9,
+    "badge": "Kitchen Workhorse",
+    "description": "Equipped with a heavy-duty 750-watt copper motor and 4 versatile jars for wet grinding, dry masala blending, chutney making, and fruit extraction.",
+    "specs": {
+      "Motor Power": "750 Watts Pure Copper Motor (20,000 RPM)",
+      "Jars Included": "1.5L Wet Jar, 1.0L Dry Jar, 300ml Chutney Jar, 1.5L Juicer",
+      "Blade Material": "High-Grade Surgical Stainless Steel Blades",
+      "Overload Protection": "Yes, Auto Thermal Cut-off Switch",
+      "Speed Control": "3-Speed rotary knob with Incher Pulse"
+    },
+    "pros": [
+      "High torque 750W motor crushes tough turmeric and idli batter smoothly",
+      "Juicer jar with pulp separator saves breakfast preparation time",
+      "Sturdy anti-slip vacuum rubber feet prevent motor vibration"
+    ],
+    "cons": [
+      "Motor operates with noticeable sound level at 750W peak",
+      "Needs brief cooling between multiple 5-minute heavy cycles"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 3199,
+        "originalPrice": 6295,
+        "discountPercent": 49,
+        "inStock": true,
+        "seller": "Prestige Official Online (Prime)",
+        "rating": 4.6,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "Flat ₹300 off on HDFC Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B07R4R79T1"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 2999,
+        "originalPrice": 6295,
+        "discountPercent": 52,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.7,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹250 off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/prestige-iris-750w/p/itm5fe2374"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 3290,
+        "originalPrice": 6295,
+        "discountPercent": 48,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.5,
+        "delivery": "Pickup in 2 Hours",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/prestige-iris-750-watt/p/239102"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 3099,
+        "originalPrice": 6295,
+        "discountPercent": 51,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.6,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/prestige-iris-750w/p/492850119"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 2799,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 6295,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 3450,
+    "priceDropNotice": "Massive 52% Off! Flipkart offers the best deal at ₹2,999!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 6295,
+        "flipkart": 6295,
+        "croma": 6295,
+        "reliance": 6295,
+        "lowest": 6295
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 3699,
+        "flipkart": 3499,
+        "croma": 3790,
+        "reliance": 3590,
+        "lowest": 3499
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 3099,
+        "flipkart": 2799,
+        "croma": 3390,
+        "reliance": 2999,
+        "lowest": 2799
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 3199,
+        "flipkart": 2999,
+        "croma": 3290,
+        "reliance": 3099,
+        "lowest": 2999
+      }
+    ]
+  },
+  {
+    "id": "prod-18",
+    "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker & Slow Cooker (6L)",
+    "brand": "Instant Pot",
+    "category": "Kitchen",
+    "mrp": 14990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-cooker/j/e/e/cr-1715g-rice-cooker-3l-dum-cooking-3d-heating-10hrs-keep-warm-original-imahpwvgwtczgekp.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-cooker/j/e/e/cr-1715g-rice-cooker-3l-dum-cooking-3d-heating-10hrs-keep-warm-original-imahpwvgwtczgekp.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/pot-pan/c/o/g/patila-dekchi-bhagona-for-boiling-milk-7liter-steelika-original-imahnwnkzdgzjz8g.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shopsy-pot-pan/i/t/5/acb60-hawkins-original-imah48seec8bfjhq.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 4210,
+    "expertScore": 9.5,
+    "badge": "Smart Multi-Cooker",
+    "description": "Combines 7 appliances in one: Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté Pan, Yogurt Maker and Food Warmer with 13 one-touch Smart Programs.",
+    "specs": {
+      "Capacity": "6.0 Litres (Cooks for up to 6 people)",
+      "Functions": "Pressure Cook, Sauté, Steam, Slow Cook, Rice, Yogurt, Warm",
+      "Inner Pot": "Food-grade 304 (18/8) Stainless Steel Inner Pot",
+      "Safety": "10+ Proven Safety Mechanisms (Lid Lock, Overheat Protection)",
+      "Power": "1000 Watts Heating Element"
+    },
+    "pros": [
+      "Replaces multiple pots and pans, speeding up cooking by up to 70%",
+      "Solid stainless steel inner pot with zero chemical non-stick coating",
+      "Whisper-quiet steam release valve with auto-regulating pressure"
+    ],
+    "cons": [
+      "Takes up meaningful countertop surface area",
+      "Requires learning curve to master exact liquid ratios"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 8990,
+        "originalPrice": 14990,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Instant Brands India (Prime)",
+        "rating": 4.9,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹1,000 Instant ICICI Bank Discount",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B00FLYWNYQ"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 9490,
+        "originalPrice": 14990,
+        "discountPercent": 37,
+        "inStock": true,
+        "seller": "OmniTechHome Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹750 off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/instant-pot-duo-6l/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 8790,
+        "originalPrice": 14990,
+        "discountPercent": 41,
+        "inStock": true,
+        "seller": "Croma Electronics",
+        "rating": 4.8,
+        "delivery": "In Store Pickup in 3 Hours",
+        "bankOffer": "Flat ₹1,000 off on HDFC & ICICI",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/instant-pot-duo-7-in-1/p/279102"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 8999,
+        "originalPrice": 14990,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat ₹1,000 Instant Cashback",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/instant-pot-duo-6l/p/493839109"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 8290,
+      "store": "Croma",
+      "date": "2026-09-26"
+    },
+    "highestPriceEver": {
+      "price": 14990,
+      "store": "Flipkart",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 9500,
+    "priceDropNotice": "Croma leads at ₹8,790 (Flat 41% off MRP)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 14990,
+        "flipkart": 14990,
+        "croma": 14990,
+        "reliance": 14990,
+        "lowest": 14990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 10490,
+        "flipkart": 10990,
+        "croma": 9990,
+        "reliance": 10290,
+        "lowest": 9990
+      },
+      {
+        "date": "2026-09-26",
+        "amazon": 8990,
+        "flipkart": 9290,
+        "croma": 8290,
+        "reliance": 8890,
+        "lowest": 8290
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 8990,
+        "flipkart": 9490,
+        "croma": 8790,
+        "reliance": 8999,
+        "lowest": 8790
+      }
+    ]
+  },
+  {
+    "id": "prod-19",
+    "title": "Yonex Astrox 99 Pro High-Modulus Graphite Badminton Racket (4U, G5)",
+    "brand": "Yonex",
+    "category": "Sports",
+    "mrp": 18990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/racquet/j/a/5/g1-4-inches-strung-badminton-racquet-with-cover-bag-badminton-original-imahcnygfbzfvby9.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/racquet/j/a/5/g1-4-inches-strung-badminton-racquet-with-cover-bag-badminton-original-imahcnygfbzfvby9.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/racquet/c/n/p/g5-3-inches-strung-astrox-99-play-3rd-gen-1-astrox-99-play-80-resized-original-imahfy6xzg6pdebd.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/racquet/y/f/y/g4-3-25-inches-strung-yonex-astrox-lite-27i-1-astrox-27i-77-original-imahrczkbvfa3fsf.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 1640,
+    "expertScore": 9.7,
+    "badge": "Tournament Pro Choice",
+    "description": "Designed in collaboration with Kento Momota. Features Rotational Generator System, Namd graphite for explosive power smashes, and an enlarged isometric sweet spot.",
+    "specs": {
+      "Frame Material": "HM Graphite + Namd + VOLUME CUT RESIN + Tungsten",
+      "Shaft": "Extra Slim Shaft with Energy Boost Cap Plus",
+      "Weight / Grip": "4U (Avg 83g) / G5",
+      "String Tension": "20 - 28 lbs",
+      "Balance": "Head Heavy (Power Smash Specialized)"
+    },
+    "pros": [
+      "Monstrous smash power with revolutionary Namd graphite flex recovery",
+      "Rotational Generator counterbalanced weight allows lightning transitions",
+      "Made in Japan with world-class tournament quality control"
+    ],
+    "cons": [
+      "Head-heavy balance requires developed wrist technique",
+      "Comes unstrung from factory (strings chosen separately)"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 14290,
+        "originalPrice": 18990,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Sunrise Sports India (Prime)",
+        "rating": 4.9,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹1,500 Instant Discount on HDFC Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B09DVGBN8P"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 13999,
+        "originalPrice": 18990,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "SportsDirect Assured",
+        "rating": 4.8,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Extra ₹1,000 off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/yonex-astrox-99-pro/p/itm5fe23"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 14990,
+        "originalPrice": 18990,
+        "discountPercent": 21,
+        "inStock": true,
+        "seller": "Croma Sports Section",
+        "rating": 4.6,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/yonex-astrox-99/p/308192"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 14490,
+        "originalPrice": 18990,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "Reliance Retail Sports",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% Cashback on SBI Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in/yonex-astrox-99-pro/p/493839219"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 13490,
+      "store": "Flipkart",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 18990,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 14800,
+    "priceDropNotice": "Flipkart has the Best Price at ₹13,999 (Save ₹4,991)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 18990,
+        "flipkart": 18990,
+        "croma": 18990,
+        "reliance": 18990,
+        "lowest": 18990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 15490,
+        "flipkart": 15190,
+        "croma": 15990,
+        "reliance": 15490,
+        "lowest": 15190
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 14190,
+        "flipkart": 13490,
+        "croma": 14990,
+        "reliance": 14390,
+        "lowest": 13490
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 14290,
+        "flipkart": 13999,
+        "croma": 14990,
+        "reliance": 14490,
+        "lowest": 13999
+      }
+    ]
+  },
+  {
+    "id": "prod-20",
+    "title": "Decathlon Domyos Professional Hex Rubber Dumbbell Pair (10kg x 2 = 20kg Total)",
+    "brand": "Decathlon",
+    "category": "Sports",
+    "mrp": 5999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/dumbbell/v/v/6/rubber-coated-hexa-dumbbell-set-for-men-women-22-5-kg-pair-22-5-original-imahd2tukevrggnz.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/dumbbell/v/v/6/rubber-coated-hexa-dumbbell-set-for-men-women-22-5-kg-pair-22-5-original-imahd2tukevrggnz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/dumbbell/f/0/j/professional-hex-shape-premium-quality-rubber-5kg-2-10kg-10-original-imah9quzrzugxdvj.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/dumbbell/e/a/g/rubber-coated-hexa-dumbbell-set-for-men-women-20-kg-pair-20-original-imahd2tuvyhzgmaj.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 3120,
+    "expertScore": 9.3,
+    "badge": "Gym Essential",
+    "description": "Built for heavy home and commercial training. The solid cast-iron core encased in high-density vulcanized rubber protects floors, suppresses noise, and will never roll away.",
+    "specs": {
+      "Weight": "10 kg per dumbbell (Set of 2 = 20 kg)",
+      "Core Material": "Solid Cast Iron",
+      "Outer Coating": "Non-odor Virgin Vulcanized Rubber",
+      "Handle": "Ergonomic Hard Chrome Knurled Steel Grip (32mm)",
+      "Shape": "Anti-Roll Hexagonal Geometry"
+    },
+    "pros": [
+      "Hex shape prevents rolling on uneven floor surfaces during floor presses",
+      "Heavy-duty knurled chrome grip prevents slipping with sweaty hands",
+      "Thick rubber coating dampens noise when setting down on floor"
+    ],
+    "cons": [
+      "Heavy package requires ground-floor or elevator delivery access",
+      "Fixed weight (non-adjustable)"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 4499,
+        "originalPrice": 5999,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Decathlon Official Online (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Scheduled Delivery",
+        "bankOffer": "₹400 Instant Discount on ICICI Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B08DFG392X"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 4299,
+        "originalPrice": 5999,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "FitnessKart Assured",
+        "rating": 4.7,
+        "delivery": "FREE 3-Day Delivery",
+        "bankOffer": "5% Unlimited Cashback on Axis Card",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/decathlon-hex-dumbbells/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 4799,
+        "originalPrice": 5999,
+        "discountPercent": 20,
+        "inStock": true,
+        "seller": "Croma Fitness Hub",
+        "rating": 4.6,
+        "delivery": "Store Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/decathlon-dumbbell-10kg/p/308991"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 4399,
+        "originalPrice": 5999,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "Reliance Fitness",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/decathlon-dumbbell-pair/p/493839118"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 3999,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 5999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 4600,
+    "priceDropNotice": "Flipkart currently has the Lowest Price at ₹4,299!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 5999,
+        "flipkart": 5999,
+        "croma": 5999,
+        "reliance": 5999,
+        "lowest": 5999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 4999,
+        "flipkart": 4899,
+        "croma": 5199,
+        "reliance": 4949,
+        "lowest": 4899
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 4399,
+        "flipkart": 3999,
+        "croma": 4799,
+        "reliance": 4299,
+        "lowest": 3999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 4499,
+        "flipkart": 4299,
+        "croma": 4799,
+        "reliance": 4399,
+        "lowest": 4299
+      }
+    ]
+  },
+  {
+    "id": "prod-21",
+    "title": "Nivia Storm Thermobonded Official Football (Size 5, All-Weather Turf)",
+    "brand": "Nivia",
+    "category": "Sports",
+    "mrp": 1499,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shopsy-ball/n/u/e/5-storm-rubber-moulded-size-5-white-2-1-football-nivia-original-imahdp8e9zzyhucz.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shopsy-ball/n/u/e/5-storm-rubber-moulded-size-5-white-2-1-football-nivia-original-imahdp8e9zzyhucz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/k5e7o280/ball/t/e/e/150-300-5-22-storm-yellow-1-5-football-nivia-original-imafz39nnk3umfxz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shopsy-ball/n/f/o/5-storm-football-yellow-size-5-with-ball-pump-22-1-football-original-imahfknmyzaxtcqx.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 7890,
+    "expertScore": 8.9,
+    "badge": "Match Ball Champion",
+    "description": "The trusted official match football of Indian state and school leagues. Constructed with 32 thermobonded panels for zero water absorption and true aerodynamic flight stability.",
+    "specs": {
+      "Size": "Size 5 (Standard Official Match Size)",
+      "Construction": "Thermobonded Seamless Construction (No Stitches)",
+      "Outer Layer": "Abrasion-Resistant Textured PU Microfiber",
+      "Bladder": "Reinforced Butyl Bladder for optimal air retention",
+      "Playing Surface": "Suitable for Natural Grass, Artificial Turf & Hard Grounds"
+    },
+    "pros": [
+      "Zero stitch holes ensures completely waterproof play in heavy monsoon rains",
+      "Predictable bounce and true high-speed flight trajectory",
+      "Holds air pressure for weeks without requiring constant pump top-ups"
+    ],
+    "cons": [
+      "Ships deflated (requires ball needle and pump to inflate)",
+      "Avoid playing on rough asphalt to maintain surface skin"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 849,
+        "originalPrice": 1499,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "Freewill Sports Official (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹100 Cashback on Amazon Pay UPI",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B07P7H65K8"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 799,
+        "originalPrice": 1499,
+        "discountPercent": 47,
+        "inStock": true,
+        "seller": "OmniTechSports Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "Extra 5% off on Axis Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/nivia-storm-football/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 949,
+        "originalPrice": 1499,
+        "discountPercent": 37,
+        "inStock": true,
+        "seller": "Croma Sports",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/nivia-storm-football/p/308109"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 819,
+        "originalPrice": 1499,
+        "discountPercent": 45,
+        "inStock": true,
+        "seller": "Reliance Retail Sports",
+        "rating": 4.6,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/nivia-storm-football/p/493839112"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 749,
+      "store": "Flipkart",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 1499,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 890,
+    "priceDropNotice": "Flipkart has the lowest price at ₹799 (Save ₹700)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 1499,
+        "flipkart": 1499,
+        "croma": 1499,
+        "reliance": 1499,
+        "lowest": 1499
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 999,
+        "flipkart": 949,
+        "croma": 1049,
+        "reliance": 979,
+        "lowest": 949
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 829,
+        "flipkart": 749,
+        "croma": 949,
+        "reliance": 799,
+        "lowest": 749
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 849,
+        "flipkart": 799,
+        "croma": 949,
+        "reliance": 819,
+        "lowest": 799
+      }
+    ]
+  },
+  {
+    "id": "prod-22",
+    "title": "Bosch GSB 500W Professional Impact Drill & 100-Piece Home Tool Kit",
+    "brand": "Bosch",
+    "category": "Hardware Tools",
+    "mrp": 6850,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/hammer-drill/h/0/o/10-bosch-professional-gsb-500-re-corded-electric-drill-tool-set-original-imahbkceyprg8zsn.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/hammer-drill/h/0/o/10-bosch-professional-gsb-500-re-corded-electric-drill-tool-set-original-imahbkceyprg8zsn.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/power-hand-tool-kit/r/x/j/cbr23-1-sinal-original-imahhypcxcszxh4h.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/power-hand-tool-kit/5/u/c/cbr23-1-sinal-enriched-3-original-imahjn5cgzzzvywv.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 6420,
+    "expertScore": 9.5,
+    "badge": "Ultimate DIY Tool",
+    "description": "The complete all-in-one home improvement kit. Powerful 500W reversible impact drill accompanied by 100 accessories including masonry/metal bits, hammer, pliers, screwdriver bits, and spirit level.",
+    "specs": {
+      "Power Input": "500 Watts Motor (0 - 2,600 RPM / 41,600 BPM)",
+      "Chuck Capacity": "1.5 mm - 10 mm Keyed Steel Chuck",
+      "Drilling Diameter": "Concrete: 10mm, Steel: 8mm, Wood: 20mm",
+      "Modes": "Dual Mode (Drill + Impact Hammer Drill)",
+      "Toolbox": "100-Piece robust molded carry case included"
+    },
+    "pros": [
+      "Crushes tough masonry concrete and brick walls effortlessly",
+      "Forward and reverse mode enables both drilling and power screwdriving",
+      "Ergonomic compact grip with auxiliary 360-degree handle and depth gauge"
+    ],
+    "cons": [
+      "Keyed chuck takes slight patience compared to keyless chucks",
+      "Power cord requires extension cord for outdoor perimeter jobs"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 4199,
+        "originalPrice": 6850,
+        "discountPercent": 39,
+        "inStock": true,
+        "seller": "Bosch Power Tools India (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹500 Instant Discount with SBI Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B00V4T3N0A"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 3999,
+        "originalPrice": 6850,
+        "discountPercent": 42,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.7,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "Extra 5% off with Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/bosch-gsb-500w-toolkit/p/itm5fe2374"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 4399,
+        "originalPrice": 6850,
+        "discountPercent": 36,
+        "inStock": true,
+        "seller": "Croma Hardware Section",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/bosch-gsb-500w-drill/p/308190"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 4149,
+        "originalPrice": 6850,
+        "discountPercent": 39,
+        "inStock": true,
+        "seller": "Reliance ResQ Tools",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% off with BOB Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/bosch-gsb-500w-drill/p/493839210"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 3799,
+      "store": "Flipkart",
+      "date": "2026-09-26"
+    },
+    "highestPriceEver": {
+      "price": 6850,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 4400,
+    "priceDropNotice": "Flipkart leads with Lowest Online Price at ₹3,999 (Save ₹2,851)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 6850,
+        "flipkart": 6850,
+        "croma": 6850,
+        "reliance": 6850,
+        "lowest": 6850
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 4699,
+        "flipkart": 4499,
+        "croma": 4899,
+        "reliance": 4599,
+        "lowest": 4499
+      },
+      {
+        "date": "2026-09-26",
+        "amazon": 4099,
+        "flipkart": 3799,
+        "croma": 4499,
+        "reliance": 4199,
+        "lowest": 3799
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 4199,
+        "flipkart": 3999,
+        "croma": 4399,
+        "reliance": 4149,
+        "lowest": 3999
+      }
+    ]
+  },
+  {
+    "id": "prod-23",
+    "title": "Stanley 65-Piece Household Hand Tool Kit with Tough Organizer Case",
+    "brand": "Stanley",
+    "category": "Hardware Tools",
+    "mrp": 4999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/power-hand-tool-kit/c/i/h/-original-imahgfmsgbg4dwfa.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/power-hand-tool-kit/c/i/h/-original-imahgfmsgbg4dwfa.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/power-hand-tool-kit/v/j/b/-original-imahg2bs4wgcvg93.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/plier/g/o/i/6-stht84405-stanley-original-imah7z4pgzsyqxfk.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 4120,
+    "expertScore": 9.2,
+    "badge": "Must-Have Home Repair",
+    "description": "A comprehensive mechanics and homeowner toolkit. Includes fiberglass claw hammer, adjustable wrench, combination pliers, ratcheting screwdriver with bits, utility knife, measuring tape, and hex keys.",
+    "specs": {
+      "Total Pieces": "65 Precision Hand Tools & Fasteners",
+      "Material": "Chrome Vanadium Steel with Anti-Rust Satin Finish",
+      "Hammer": "16 oz Fiberglass Shock-Absorbing Claw Hammer",
+      "Measuring Tape": "3 Meter Stanley Tylon Locking Tape",
+      "Case": "Heavy-Duty Blow Molded Organizer with Metal Latches"
+    },
+    "pros": [
+      "Every household tool neatly organized with snug molded slots",
+      "Drop-forged Chrome Vanadium steel will not strip or round bolt heads",
+      "Shock-absorbing fiberglass hammer handle protects wrist joints"
+    ],
+    "cons": [
+      "Precision screwdriver bits are magnetic but require care not to misplace",
+      "Utility knife blades need replacement after prolonged heavy slicing"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 2799,
+        "originalPrice": 4999,
+        "discountPercent": 44,
+        "inStock": true,
+        "seller": "Stanley Black & Decker Official (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹300 off on HDFC Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B000UHMITE"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 2649,
+        "originalPrice": 4999,
+        "discountPercent": 47,
+        "inStock": true,
+        "seller": "ToolsRetail Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% Cashback with Flipkart Axis Card",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/stanley-65-piece-toolkit/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 2999,
+        "originalPrice": 4999,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Croma Home Improvement",
+        "rating": 4.6,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/stanley-65-piece-toolkit/p/308119"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 2749,
+        "originalPrice": 4999,
+        "discountPercent": 45,
+        "inStock": true,
+        "seller": "Reliance ResQ Tools",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% Cashback on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/stanley-65-piece-kit/p/493839218"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 2499,
+      "store": "Flipkart",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 4999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 2950,
+    "priceDropNotice": "Flipkart offers the lowest price at ₹2,649 (Save ₹2,350)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 4999,
+        "flipkart": 4999,
+        "croma": 4999,
+        "reliance": 4999,
+        "lowest": 4999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 3199,
+        "flipkart": 3099,
+        "croma": 3399,
+        "reliance": 3149,
+        "lowest": 3099
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 2799,
+        "flipkart": 2499,
+        "croma": 3199,
+        "reliance": 2849,
+        "lowest": 2499
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 2799,
+        "flipkart": 2649,
+        "croma": 2999,
+        "reliance": 2749,
+        "lowest": 2649
+      }
+    ]
+  },
+  {
+    "id": "prod-24",
+    "title": "Black+Decker 3.6V Cordless Lithium-Ion Screwdriver Kit (27 Bits Included)",
+    "brand": "Black+Decker",
+    "category": "Hardware Tools",
+    "mrp": 2995,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/screwdriver-set/3/a/w/1-cordless-screwdriver-kit-47-in-1-electric-bits-set-original-imahdhkeew7mvhfy.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/screwdriver-set/3/a/w/1-cordless-screwdriver-kit-47-in-1-electric-bits-set-original-imahdhkeew7mvhfy.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/power-drill/a/0/q/6-35-cordless-multi-function-hard-screwdriver-kit-3-6v-original-imagjtfnrgmhajd9.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/hammer-drill/j/t/b/10-bcd003c1-qw-black-and-decker-original-imahskjw3ucyfrqv.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 3890,
+    "expertScore": 9,
+    "badge": "Furniture Assembly Star",
+    "description": "Tackle IKEA furniture assembly, PC builds, and electrical switchboard repairs effortlessly. Features forward/reverse toggle, integrated LED worklight, and rechargeable 1.5Ah Li-Ion battery.",
+    "specs": {
+      "Battery": "3.6V 1.5Ah Integrated Lithium-Ion (Holds charge for 18 months)",
+      "Torque": "5.5 Nm Max Torque for driving screws smoothly",
+      "Worklight": "Built-in bright front LED for dark cupboards",
+      "Chuck": "Magnetic 1/4-inch Hex Chuck for rapid bit change",
+      "Bits Included": "27-Piece screwdriver bit set (Phillips, Torx, Flat, Hex)"
+    },
+    "pros": [
+      "Assembles furniture in a fraction of the time with zero wrist fatigue",
+      "Magnetic bit holder prevents screws from falling into tight gaps",
+      "Front LED flashlight illuminates dark cabinets and under-desk areas"
+    ],
+    "cons": [
+      "3.6V is meant for screws and light furniture, not for concrete drilling",
+      "Recharges via micro-USB / DC adapter"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 1799,
+        "originalPrice": 2995,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Stanley Black & Decker Official (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹200 Instant Discount with Amazon Pay",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in/dp/B07L6L8L8F"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 1699,
+        "originalPrice": 2995,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% off with Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com/black-decker-cordless-screwdriver/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 1899,
+        "originalPrice": 2995,
+        "discountPercent": 37,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com/black-decker-3-6v-screwdriver/p/308112"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 1749,
+        "originalPrice": 2995,
+        "discountPercent": 42,
+        "inStock": true,
+        "seller": "Reliance ResQ Tools",
+        "rating": 4.6,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in/black-decker-screwdriver/p/493839217"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 1549,
+      "store": "Flipkart",
+      "date": "2026-09-21"
+    },
+    "highestPriceEver": {
+      "price": 2995,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 1850,
+    "priceDropNotice": "Flipkart has the Lowest Price at ₹1,699 (Save ₹1,296)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 2995,
+        "flipkart": 2995,
+        "croma": 2995,
+        "reliance": 2995,
+        "lowest": 2995
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 2099,
+        "flipkart": 1999,
+        "croma": 2199,
+        "reliance": 2049,
+        "lowest": 1999
+      },
+      {
+        "date": "2026-09-21",
+        "amazon": 1699,
+        "flipkart": 1549,
+        "croma": 1899,
+        "reliance": 1699,
+        "lowest": 1549
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 1799,
+        "flipkart": 1699,
+        "croma": 1899,
+        "reliance": 1749,
+        "lowest": 1699
+      }
+    ]
+  },
+  {
+    "id": "prod-25",
+    "title": "Ferrero Rocher Premium Hazelnut Chocolates Gold Gift Box (24 Pieces, 300g)",
+    "brand": "Ferrero Rocher",
+    "category": "Packed Food Items",
+    "mrp": 1099,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/chocolate/o/s/a/-original-imahqt3qwfdzmncs.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/chocolate/o/s/a/-original-imahqt3qwfdzmncs.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/kgb5rbk0/chocolate/y/m/r/24-moments-box-of-24-units-139-2-g-ferrero-rocher-original-imafwkxtg9affgfh.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/jy90eq80/fmcg-combo/6/h/q/rakhi-combo-with-24-pcs-chocolate-1-pcs-of-handmade-rakhi-original-imafghwcaxgfrdzq.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 11250,
+    "expertScore": 9.6,
+    "badge": "Celebration Favorite",
+    "description": "A timeless gourmet confection. A whole crunchy hazelnut in the center, a delicious creamy chocolate hazelnut filling, a crisp wafer shell covered with milk chocolate and gently roasted hazelnut pieces.",
+    "specs": {
+      "Net Quantity": "24 Individually Foil-Wrapped Spheres (300g)",
+      "Main Ingredients": "Milk Chocolate (30%), Hazelnuts (28.5%), Sugar, Cocoa Butter",
+      "Dietary Preference": "Vegetarian (Green Dot Certified)",
+      "Packaging": "Clear Transparent Premium Acrylic Gift Box with Gold Ribbon",
+      "Shelf Life": "9 Months from date of manufacture"
+    },
+    "pros": [
+      "Irresistible contrast of whole crunchy hazelnut, smooth cream, and crispy wafer",
+      "Elegant gold presentation box perfect for birthdays, anniversaries, and Diwali",
+      "Strict temperature-controlled shipping prevents chocolate melting"
+    ],
+    "cons": [
+      "Contains nuts, milk, soy, and gluten (allergen advisory)",
+      "Needs cool storage below 22°C in hot summer months"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 849,
+        "originalPrice": 1099,
+        "discountPercent": 23,
+        "inStock": true,
+        "seller": "Ferrero India Official (Prime Fresh)",
+        "rating": 4.9,
+        "delivery": "FREE Same Day / Next Day Delivery",
+        "bankOffer": "₹100 Cashback on Amazon Fresh",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in/dp/B00474V146"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 829,
+        "originalPrice": 1099,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.8,
+        "delivery": "Delivery in 24 Hours",
+        "bankOffer": "Extra 5% off on Axis Bank Cards",
+        "returnDays": "Replacement if Damaged on Delivery",
+        "url": "https://www.flipkart.com/ferrero-rocher-24-pieces/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 899,
+        "originalPrice": 1099,
+        "discountPercent": 18,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma Gourmet",
+        "rating": 4.7,
+        "delivery": "Store Pickup or 2-Day Delivery",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Store Exchange on Damage",
+        "url": "https://www.croma.com/ferrero-rocher-24-pieces/p/308910"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 799,
+        "originalPrice": 1099,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart Superstore",
+        "rating": 4.9,
+        "delivery": "Express 3-Hour Store Dispatch",
+        "bankOffer": "Flat 10% Cashback on JioMart HDFC Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in/ferrero-rocher-24-box/p/493839216"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 749,
+      "store": "Reliance Digital",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 1099,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 870,
+    "priceDropNotice": "Reliance Digital / JioMart has the Best Price at ₹799 (Save ₹300)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 1099,
+        "flipkart": 1099,
+        "croma": 1099,
+        "reliance": 1099,
+        "lowest": 1099
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 949,
+        "flipkart": 929,
+        "croma": 999,
+        "reliance": 899,
+        "lowest": 899
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 829,
+        "flipkart": 799,
+        "croma": 899,
+        "reliance": 749,
+        "lowest": 749
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 849,
+        "flipkart": 829,
+        "croma": 899,
+        "reliance": 799,
+        "lowest": 799
+      }
+    ]
+  },
+  {
+    "id": "prod-26",
+    "title": "Nescafe Gold Blend Premium Roast Soluble Coffee Glass Jar (200g)",
+    "brand": "Nescafe",
+    "category": "Packed Food Items",
+    "mrp": 1250,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/coffee/b/2/i/200-gold-deluxe-instant-coffee-glass-jar-glass-bottle-1-instant-original-imahqfshrfevksmw.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/coffee/b/2/i/200-gold-deluxe-instant-coffee-glass-jar-glass-bottle-1-instant-original-imahqfshrfevksmw.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/jxdkpzk0/coffee/y/s/t/200-gold-blend-decaf-coffee-200g-instant-coffee-glass-bottle-original-imafg5nyqapy52dq.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/kasjjww0/coffee/4/j/g/200-gold-blend-ground-coffee-roast-ground-coffee-glass-bottle-original-imafsabb8amhprht.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 8420,
+    "expertScore": 9.4,
+    "badge": "Barista Favorite",
+    "description": "Crafted with mountain-grown Arabica beans ground 10 times finer to unlock the soul of the bean. Delivers rich aroma, smooth crema, and a velvety barista-grade coffee experience.",
+    "specs": {
+      "Weight": "200 grams Glass Decanter Jar",
+      "Bean Blend": "High Altitude Arabica and selected Robusta Beans",
+      "Roast Level": "Golden Medium Roast",
+      "Servings": "Makes up to 100 cups of premium coffee",
+      "Origin": "Imported from South Korea / Switzerland"
+    },
+    "pros": [
+      "Noticeably smoother and less bitter than regular instant coffee powders",
+      "Microground Arabica beans produce a rich aromatic crema head",
+      "Heavy glass jar with tight gold cap seals freshness for months"
+    ],
+    "cons": [
+      "Glass jar is fragile and requires careful kitchen counter handling",
+      "Premium price point vs standard chicory blend coffees"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 899,
+        "originalPrice": 1250,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "Nestle India Official (Prime Fresh)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹100 Cashback on Amazon Pay",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in/dp/B079Z1K98F"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 925,
+        "originalPrice": 1250,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.7,
+        "delivery": "Delivery in 24 Hours",
+        "bankOffer": "5% Cashback on Axis Bank Cards",
+        "returnDays": "Replacement on Damage",
+        "url": "https://www.flipkart.com/nescafe-gold-200g/p/itm2849"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 950,
+        "originalPrice": 1250,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Exchange on Damage",
+        "url": "https://www.croma.com/nescafe-gold-blend-200g/p/308919"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 875,
+        "originalPrice": 1250,
+        "discountPercent": 30,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart",
+        "rating": 4.8,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat 10% Cashback with JioMart Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in/nescafe-gold-200g/p/493839215"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 825,
+      "store": "Reliance Digital",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 1250,
+      "store": "Flipkart",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 940,
+    "priceDropNotice": "Reliance Digital / JioMart offers the best price at ₹875 (Save ₹375)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 1250,
+        "flipkart": 1250,
+        "croma": 1250,
+        "reliance": 1250,
+        "lowest": 1250
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 999,
+        "flipkart": 1049,
+        "croma": 1099,
+        "reliance": 975,
+        "lowest": 975
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 899,
+        "flipkart": 949,
+        "croma": 990,
+        "reliance": 825,
+        "lowest": 825
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 899,
+        "flipkart": 925,
+        "croma": 950,
+        "reliance": 875,
+        "lowest": 875
+      }
+    ]
+  },
+  {
+    "id": "prod-27",
+    "title": "Kellogg's Muesli with 21% Fruit Magic Crunchy Breakfast Cereal (1kg Value Pack)",
+    "brand": "Kellogg's",
+    "category": "Packed Food Items",
+    "mrp": 680,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/cereal-flake/0/m/m/-original-imahzfpar8ft37zg.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/cereal-flake/0/m/m/-original-imahzfpar8ft37zg.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/cereal-flake/b/x/4/-original-imahmzey8rwrtxt6.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/cereal-flake/d/o/k/1-high-protein-24g-muesli-dark-chocolate-cranberry-with-zero-original-imahmhzuemrbbfkd.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 5690,
+    "expertScore": 9.1,
+    "badge": "Healthy Morning Starter",
+    "description": "Packed with 5 nutritious multigrains (Oats, Wheat, Corn, Rice and Barley) and 21% dried fruits & nuts (Papaya, Cranberry, Apple, Raisins and Almonds). High in Iron and dietary fiber.",
+    "specs": {
+      "Net Weight": "1 kg Re-sealable Standup Zipper Pouch",
+      "Nut & Fruit Content": "21% Dried Papaya, Raisins, Cranberry, Apple & Sliced Almonds",
+      "Grains": "5 Multigrains: Rolled Oats, Whole Wheat, Corn, Rice, Barley",
+      "Nutritional Perks": "Zero Cholesterol, Naturally High in Dietary Fiber & Iron",
+      "Shelf Life": "9 Months"
+    },
+    "pros": [
+      "Generous quantity of real dried fruits and crunchy almonds in every spoonful",
+      "Stays delightfully crunchy in both chilled and warm milk or Greek yogurt",
+      "Zipper pouch locks in crispness without needing separate plastic containers"
+    ],
+    "cons": [
+      "Contains natural added sugars from dried fruits",
+      "Reseal zipper carefully to avoid moisture softening the oats"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 499,
+        "originalPrice": 680,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "Kellogg's India Store (Prime Fresh)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹50 Cashback with Amazon Pay UPI",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in/dp/B07DYQ34T1"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 489,
+        "originalPrice": 680,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.7,
+        "delivery": "FREE Delivery with Grocery Order",
+        "bankOffer": "5% Cashback on Axis Bank Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.flipkart.com/kelloggs-muesli-fruit-magic-1kg/p/itm5fe"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 540,
+        "originalPrice": 680,
+        "discountPercent": 21,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Exchange if Damaged",
+        "url": "https://www.croma.com/kelloggs-muesli-1kg/p/308914"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 475,
+        "originalPrice": 680,
+        "discountPercent": 30,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart Bazaar",
+        "rating": 4.8,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat 10% Cashback with JioMart Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in/kelloggs-muesli-1kg/p/493839214"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 449,
+      "store": "Reliance Digital",
+      "date": "2026-09-21"
+    },
+    "highestPriceEver": {
+      "price": 680,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 520,
+    "priceDropNotice": "Reliance Digital / JioMart offers the best price at ₹475 (Save ₹205)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 680,
+        "flipkart": 680,
+        "croma": 680,
+        "reliance": 680,
+        "lowest": 680
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 549,
+        "flipkart": 529,
+        "croma": 579,
+        "reliance": 519,
+        "lowest": 519
+      },
+      {
+        "date": "2026-09-21",
+        "amazon": 499,
+        "flipkart": 479,
+        "croma": 540,
+        "reliance": 449,
+        "lowest": 449
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 499,
+        "flipkart": 489,
+        "croma": 540,
+        "reliance": 475,
+        "lowest": 475
+      }
+    ]
+  },
+  {
+    "id": "prod-28",
+    "title": "Tata Tea Gold Premium Assam & Long Leaf Fragrant Black Tea (1kg Pouch)",
+    "brand": "Tata Tea",
+    "category": "Packed Food Items",
+    "mrp": 650,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/tea/z/w/k/1000-truly-original-elaichi-1kg-1-pouch-black-tea-tea-valley-resized-original-imahdmkagfr4qzxm.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/tea/z/w/k/1000-truly-original-elaichi-1kg-1-pouch-black-tea-tea-valley-resized-original-imahdmkagfr4qzxm.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/k4x2du80/tea/8/m/e/250-1kg-black-tea-ketley-gold-granules-original-imafnzvzthgteynh.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/kj8wccw0-0/tea/l/g/o/1-tea-gold-regular-tea-leaves-granules-tata-original-imafyusxafcy8tgv.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 9240,
+    "expertScore": 9.3,
+    "badge": "Daily Chai Essential",
+    "description": "An exquisite blend of fine CTC tea leaves with 15% gently rolled long tea leaves. Delivers rich golden amber color, rich full-bodied liquor, and an irresistible aroma in every cup.",
+    "specs": {
+      "Net Weight": "1 kg Value Pack Pouch",
+      "Blend Formulation": "85% Fine Assam CTC Black Tea + 15% Long Leaf Orthodox",
+      "Aroma & Taste": "Delicate floral aroma with robust amber malty strength",
+      "Preparation": "Ideal for traditional Indian spiced milk chai or black tea",
+      "Shelf Life": "12 Months from packaging"
+    },
+    "pros": [
+      "Signature 15% long leaves provide genuine natural tea fragrance",
+      "Produces deep color with fewer spoons compared to ordinary dust teas",
+      "Pairs wonderfully with crushed ginger, cardamom, and whole milk"
+    ],
+    "cons": [
+      "Keep stored in an airtight stainless steel or glass tin after opening",
+      "Strong liquor requires careful boiling duration"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 479,
+        "originalPrice": 650,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "Tata Consumer Products (Prime Fresh)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹50 Instant Discount on Amazon Pay",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in/dp/B00V4K72Y0"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 469,
+        "originalPrice": 650,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.7,
+        "delivery": "FREE Delivery with Grocery Order",
+        "bankOffer": "5% Cashback on Axis Bank Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.flipkart.com/tata-tea-gold-1kg/p/itm5fe23"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 520,
+        "originalPrice": 650,
+        "discountPercent": 20,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Exchange if Damaged",
+        "url": "https://www.croma.com/tata-tea-gold-1kg/p/308913"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 455,
+        "originalPrice": 650,
+        "discountPercent": 30,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart Bazaar",
+        "rating": 4.9,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat 10% Cashback with JioMart Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in/tata-tea-gold-1kg/p/493839213"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 429,
+      "store": "Reliance Digital",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 650,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 495,
+    "priceDropNotice": "Reliance Digital / JioMart leads with the lowest deal at ₹455!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 650,
+        "flipkart": 650,
+        "croma": 650,
+        "reliance": 650,
+        "lowest": 650
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 529,
+        "flipkart": 519,
+        "croma": 549,
+        "reliance": 499,
+        "lowest": 499
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 479,
+        "flipkart": 469,
+        "croma": 520,
+        "reliance": 429,
+        "lowest": 429
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 479,
+        "flipkart": 469,
+        "croma": 520,
+        "reliance": 455,
+        "lowest": 455
+      }
+    ]
+  },
+  {
+    "id": "prod-29",
+    "title": "Google Pixel 8 Pro (Bay Blue, 128 GB, 12 GB RAM)",
+    "brand": "Google",
+    "category": "Smartphones",
+    "mrp": 106999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/j/8/e/-resized-original-imahqszeftuehhhq.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/j/8/e/-resized-original-imahqszeftuehhhq.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/w/a/x/-resized-original-imahqsze6vgzez9e.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/a/n/p/-resized-original-imahpjzwas2tgnrh.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 2310,
+    "expertScore": 9.3,
+    "badge": "Pro AI Camera",
+    "description": "The all-pro phone engineered by Google. Features Google Tensor G3, Google AI, Super Actua display, and upgraded 50MP triple camera system with Best Take and Magic Editor.",
+    "specs": {
+      "Display": "6.7-inch Super Actua OLED (1-120Hz LTPO, 2400 nits Peak)",
+      "Processor": "Google Tensor G3 with Titan M2 security coprocessor",
+      "Camera": "50MP Octa PD + 48MP Quad PD Ultrawide + 48MP 5x Telephoto",
+      "Battery": "5,050 mAh with 30W Fast Charging & Qi Wireless",
+      "OS": "Android 14 with 7 years of promised OS & Security Updates"
+    },
+    "pros": [
+      "Industry-leading computational photography and skin tone accuracy",
+      "Generative AI photo tools: Best Take, Magic Audio Eraser, Zoom Enhance",
+      "Flat matte back glass and polished aluminum frame feels superb in hand"
+    ],
+    "cons": [
+      "Charging speed maxes out at 30W",
+      "Tensor G3 warms slightly under intense sustained 3D gaming"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 97999,
+        "originalPrice": 106999,
+        "discountPercent": 8,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹7,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 95999,
+        "originalPrice": 106999,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.8,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹8,000 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 98990,
+        "originalPrice": 106999,
+        "discountPercent": 7,
+        "inStock": true,
+        "seller": "Croma Electronics Official",
+        "rating": 4.6,
+        "delivery": "Store Pickup in 2 Hours",
+        "bankOffer": "Earn 989 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 96990,
+        "originalPrice": 106999,
+        "discountPercent": 9,
+        "inStock": true,
+        "seller": "Reliance ResQ",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 92999,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 106999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 98500,
+    "priceDropNotice": "Flipkart offers the lowest price at ₹95,999 (Save ₹11,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 106999,
+        "flipkart": 106999,
+        "croma": 106999,
+        "reliance": 106999,
+        "lowest": 106999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 101999,
+        "flipkart": 99999,
+        "croma": 102990,
+        "reliance": 100990,
+        "lowest": 99999
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 96999,
+        "flipkart": 92999,
+        "croma": 99990,
+        "reliance": 97990,
+        "lowest": 92999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 97999,
+        "flipkart": 95999,
+        "croma": 98990,
+        "reliance": 96990,
+        "lowest": 95999
+      }
+    ]
+  },
+  {
+    "id": "prod-30",
+    "title": "Nothing Phone (2) 5G (Dark Grey, 256GB, 12GB RAM)",
+    "brand": "Nothing",
+    "category": "Smartphones",
+    "mrp": 49999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/n/a/k/-original-imahrf2f6hzf4cqm.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/n/a/k/-original-imahrf2f6hzf4cqm.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/c/k/h/-original-imahrf2frebcyhqd.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/r/7/m/power-450-2-4-inch-big-display-2500-mah-battery-type-c-charging-resized-original-imahfs2qqdfutufm.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 3890,
+    "expertScore": 9.1,
+    "badge": "Unique Glyph Design",
+    "description": "Iconic transparent back with customizable Glyph LED interface. Powered by Snapdragon 8+ Gen 1, dual 50MP Sony cameras, and clean Nothing OS 2.5 with zero bloatware.",
+    "specs": {
+      "Display": "6.7-inch Flexible LTPO OLED (1-120Hz, 1600 nits peak)",
+      "Processor": "Qualcomm Snapdragon 8+ Gen 1 (4nm Flagship)",
+      "Glyph Interface": "33 individually addressable LED lighting zones",
+      "Camera": "50MP Sony IMX890 OIS + 50MP Samsung JN1 Ultra-wide",
+      "Battery": "4,700 mAh with 45W Wired + 15W Qi Wireless Charging"
+    },
+    "pros": [
+      "Mesmerizing Glyph timer and ringtones turn heads everywhere",
+      "Buttery smooth Nothing OS delivers near-stock clean UI experience",
+      "Flagship Snapdragon 8+ Gen 1 handles heavy multitasking with zero lag"
+    ],
+    "cons": [
+      "No optical telephoto zoom lens",
+      "No wall charging brick in retail package"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 37999,
+        "originalPrice": 49999,
+        "discountPercent": 24,
+        "inStock": true,
+        "seller": "RetailEZ Online (Prime)",
+        "rating": 4.6,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹2,500 off on HDFC Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 36999,
+        "originalPrice": 49999,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹3,000 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 38990,
+        "originalPrice": 49999,
+        "discountPercent": 22,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.5,
+        "delivery": "Store Pickup Available",
+        "bankOffer": "Earn 389 NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 37490,
+        "originalPrice": 49999,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Reliance Digital Store",
+        "rating": 4.6,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% Cashback on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 34999,
+      "store": "Flipkart",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 49999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 39500,
+    "priceDropNotice": "Flipkart holds the Lowest Online Price at ₹36,999!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 49999,
+        "flipkart": 49999,
+        "croma": 49999,
+        "reliance": 49999,
+        "lowest": 49999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 42999,
+        "flipkart": 41499,
+        "croma": 43990,
+        "reliance": 42490,
+        "lowest": 41499
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 36999,
+        "flipkart": 34999,
+        "croma": 39990,
+        "reliance": 37990,
+        "lowest": 34999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 37999,
+        "flipkart": 36999,
+        "croma": 38990,
+        "reliance": 37490,
+        "lowest": 36999
+      }
+    ]
+  },
+  {
+    "id": "prod-31",
+    "title": "ASUS ROG Zephyrus G14 (14-inch 3K OLED 120Hz, Ryzen 9, RTX 4060, 16GB/1TB)",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "mrp": 189990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/3/s/n/-original-imahz8zfaebganyg.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/3/s/n/-original-imahz8zfaebganyg.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/n/y/6/-original-imahr5drrgeak6nz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/j/d/v/-original-imahzye35hmhz2bs.jpeg"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 890,
+    "expertScore": 9.7,
+    "badge": "Dream Gaming Ultrabook",
+    "description": "Precision CNC-machined unibody aluminum chassis, stunning 3K ROG Nebula OLED display, AMD Ryzen 9 8945HS with Ryzen AI, and NVIDIA GeForce RTX 4060 in an impossibly slim 1.5kg body.",
+    "specs": {
+      "Display": "14.0-inch 3K (2880 x 1800) OLED 120Hz, 0.2ms, 100% DCI-P3, G-Sync",
+      "Processor": "AMD Ryzen 9 8945HS (8 Cores / 16 Threads, up to 5.2 GHz)",
+      "Graphics": "NVIDIA GeForce RTX 4060 Laptop GPU 8GB GDDR6 (90W TGP)",
+      "Memory & SSD": "16GB LPDDR5X-6400 RAM + 1TB PCIe 4.0 NVMe M.2 SSD",
+      "Weight & Audio": "Ultra-thin 1.59 cm / 1.50 kg with 6-Speaker Dolby Atmos sound"
+    },
+    "pros": [
+      "Gorgeously vivid 3K OLED panel with 0.2ms pixel response time",
+      "Premium MacBook-rivaling CNC aluminum unibody build quality",
+      "Deep, room-filling 6-speaker acoustic sound system"
+    ],
+    "cons": [
+      "Soldered RAM cannot be upgraded after purchase",
+      "Fans spin audibly under Turbo performance mode"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 164990,
+        "originalPrice": 189990,
+        "discountPercent": 13,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE One-Day Delivery",
+        "bankOffer": "₹10,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 162990,
+        "originalPrice": 189990,
+        "discountPercent": 14,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.8,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹10,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Center Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 167900,
+        "originalPrice": 189990,
+        "discountPercent": 11,
+        "inStock": true,
+        "seller": "Croma Electronics Retail",
+        "rating": 4.7,
+        "delivery": "Store Pickup Available",
+        "bankOffer": "Earn 1,679 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 164490,
+        "originalPrice": 189990,
+        "discountPercent": 13,
+        "inStock": true,
+        "seller": "Reliance ResQ Certified",
+        "rating": 4.8,
+        "delivery": "Express 4-Hour Delivery",
+        "bankOffer": "Flat ₹10,000 Cashback on OneCard",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 159990,
+      "store": "Flipkart",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 189990,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 169000,
+    "priceDropNotice": "Flipkart leads at ₹1,62,990 (Save ₹27,000 off MRP)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 189990,
+        "flipkart": 189990,
+        "croma": 189990,
+        "reliance": 189990,
+        "lowest": 189990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 174990,
+        "flipkart": 171990,
+        "croma": 176900,
+        "reliance": 173490,
+        "lowest": 171990
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 162990,
+        "flipkart": 159990,
+        "croma": 169900,
+        "reliance": 165000,
+        "lowest": 159990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 164990,
+        "flipkart": 162990,
+        "croma": 167900,
+        "reliance": 164490,
+        "lowest": 162990
+      }
+    ]
+  },
+  {
+    "id": "prod-32",
+    "title": "Dell XPS 15 (13th Gen Intel Core i7-13700H, 32GB RAM, 1TB SSD, 3.5K OLED Touch)",
+    "brand": "Dell",
+    "category": "Laptops",
+    "mrp": 239900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/w/q/m/-original-imahrux9kz4uzvzz.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/w/q/m/-original-imahrux9kz4uzvzz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/f/y/v/-original-imahmbf8uqwbu72p.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/f/5/j/-original-imahrz92h2zqqpgs.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 720,
+    "expertScore": 9.5,
+    "badge": "Creator Powerhouse",
+    "description": "The definitive creative workstation. Stunning 15.6-inch 3.5K InfinityEdge OLED touchscreen, 14-core Intel Core i7 processor, 32GB DDR5 RAM, and carbon fiber composite palm rest.",
+    "specs": {
+      "Display": "15.6-inch 3.5K (3456 x 2160) OLED Touchscreen, 400 nits, 100% DCI-P3",
+      "Processor": "Intel Core i7-13700H (14 Cores, 20 Threads, up to 5.0 GHz)",
+      "Graphics": "NVIDIA GeForce RTX 4050 6GB GDDR6",
+      "Memory & Storage": "32GB DDR5 4800MHz + 1TB PCIe NVMe SSD",
+      "Ports & Battery": "2x Thunderbolt 4, 1x USB-C 3.2, Full-size SD Card Reader, 86Wh battery"
+    },
+    "pros": [
+      "Jaw-dropping 3.5K OLED touch display with razor-thin InfinityEdge bezels",
+      "Upgradable dual SO-DIMM RAM slots and secondary M.2 SSD slot",
+      "Full-size SD card slot makes it an absolute favorite among photographers"
+    ],
+    "cons": [
+      "No traditional USB-A or HDMI ports without included adapter",
+      "Heavier at 1.92 kg compared to ultra-portables"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 209990,
+        "originalPrice": 239900,
+        "discountPercent": 12,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Scheduled Delivery",
+        "bankOffer": "₹12,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 206990,
+        "originalPrice": 239900,
+        "discountPercent": 14,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.8,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹12,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 214900,
+        "originalPrice": 239900,
+        "discountPercent": 10,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.7,
+        "delivery": "Express Store Delivery",
+        "bankOffer": "Earn 2,149 Tata NeuCoins",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 208490,
+        "originalPrice": 239900,
+        "discountPercent": 13,
+        "inStock": true,
+        "seller": "Reliance ResQ Certified",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 202990,
+      "store": "Flipkart",
+      "date": "2026-09-26"
+    },
+    "highestPriceEver": {
+      "price": 239900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 215000,
+    "priceDropNotice": "Flipkart holds the lowest price at ₹2,06,990 (Save ₹32,910)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 239900,
+        "flipkart": 239900,
+        "croma": 239900,
+        "reliance": 239900,
+        "lowest": 239900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 219990,
+        "flipkart": 216990,
+        "croma": 224900,
+        "reliance": 218490,
+        "lowest": 216990
+      },
+      {
+        "date": "2026-09-26",
+        "amazon": 208990,
+        "flipkart": 202990,
+        "croma": 215900,
+        "reliance": 209990,
+        "lowest": 202990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 209990,
+        "flipkart": 206990,
+        "croma": 214900,
+        "reliance": 208490,
+        "lowest": 206990
+      }
+    ]
+  },
+  {
+    "id": "prod-33",
+    "title": "Bose QuietComfort Ultra Wireless Noise Cancelling Headphones (Black)",
+    "brand": "Bose",
+    "category": "Audio & Headphones",
+    "mrp": 35900,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/q/t/v/-original-imahhftxskyradeu.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/q/t/v/-original-imahhftxskyradeu.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/y/e/n/-original-imahfcgw3ezpmhs2.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/krs40i80/headphone/6/s/q/noise-cancelling-700-bose-original-imag5gf6uyakqjgg.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 2940,
+    "expertScore": 9.6,
+    "badge": "Class-Leading Comfort",
+    "description": "Breakthrough spatialized audio with Bose Immersive Audio, world-class active noise cancellation customized to your ear canal via CustomTune technology, and plush protein leather earcups.",
+    "specs": {
+      "Noise Cancellation": "World-Class Bose ANC with Quiet, Aware, and Immersion modes",
+      "Technology": "CustomTune acoustic calibration tailored to personal ear shape",
+      "Battery Life": "Up to 24 hours (18 hours with Immersive Audio on)",
+      "Connectivity": "Bluetooth 5.3, Snapdragon Sound, aptX Adaptive, Multipoint",
+      "Design": "Folds flat into compact zippered travel protective case"
+    },
+    "pros": [
+      "Unsurpassed long-haul flight comfort with feather-soft ear cushions",
+      "Bose Immersive Audio places instruments on an expansive 3D virtual stage",
+      "Flawless call microphone beamforming rejects loud street noise"
+    ],
+    "cons": [
+      "Battery runtime drops to 18 hours when Immersive Audio mode is active",
+      "Touch volume strip takes slight getting used to"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 29990,
+        "originalPrice": 35900,
+        "discountPercent": 16,
+        "inStock": true,
+        "seller": "Appario Retail (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹3,000 Instant ICICI Bank Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 28990,
+        "originalPrice": 35900,
+        "discountPercent": 19,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.7,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "₹3,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 29490,
+        "originalPrice": 35900,
+        "discountPercent": 18,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.8,
+        "delivery": "Store Pickup Available",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 29290,
+        "originalPrice": 35900,
+        "discountPercent": 18,
+        "inStock": true,
+        "seller": "Reliance Audio Hub",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% Cashback on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 27990,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 35900,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 30800,
+    "priceDropNotice": "Flipkart offers the best deal at ₹28,990 (Save ₹6,910)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 35900,
+        "flipkart": 35900,
+        "croma": 35900,
+        "reliance": 35900,
+        "lowest": 35900
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 32990,
+        "flipkart": 31990,
+        "croma": 32490,
+        "reliance": 32190,
+        "lowest": 31990
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 29490,
+        "flipkart": 27990,
+        "croma": 29990,
+        "reliance": 28990,
+        "lowest": 27990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 29990,
+        "flipkart": 28990,
+        "croma": 29490,
+        "reliance": 29290,
+        "lowest": 28990
+      }
+    ]
+  },
+  {
+    "id": "prod-34",
+    "title": "Samsung Galaxy Watch 6 Classic 47mm Bluetooth (Black Stainless Steel)",
+    "brand": "Samsung",
+    "category": "Smartwatches",
+    "mrp": 40999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/a/y/8/-original-imahagdkw4pyru7q.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/a/y/8/-original-imahagdkw4pyru7q.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/3/m/v/-original-imahagdjcnqhapfu.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/smartwatch/3/c/i/43-sm-r950-android-samsung-yes-original-imah3zf9burcstrd.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 3410,
+    "expertScore": 9.3,
+    "badge": "Rotating Bezel King",
+    "description": "The return of the beloved rotating mechanical bezel. Features Sapphire Crystal glass, advanced Sleep Coaching, BioActive Sensor (ECG, BIA body composition, Blood Pressure), and Wear OS 4.",
+    "specs": {
+      "Display": "1.5-inch Super AMOLED (480 x 480), Sapphire Crystal Glass",
+      "Case Material": "Stainless Steel with Physical Rotating Bezel (47mm)",
+      "Sensors": "Optical Heart Rate, Electrical Heart Sensor (ECG), BIA Body Composition",
+      "Battery & Charging": "425 mAh with WPC Fast Wireless Charging (Up to 40 hours)",
+      "Durability": "5ATM + IP68 Water Resistance / MIL-STD-810H Military Standard"
+    },
+    "pros": [
+      "Satisfying clicky physical rotating bezel is the best UI navigation on any smartwatch",
+      "Comprehensive body composition analysis (Body Fat %, Skeletal Muscle, Water)",
+      "Supports full Google Play Store apps including WhatsApp, Maps, and Spotify"
+    ],
+    "cons": [
+      "ECG and Blood Pressure features require a Samsung Galaxy phone",
+      "Requires daily or alternate-day charging"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 29999,
+        "originalPrice": 40999,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "STPL Exclusive (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹3,000 Instant HDFC Card Discount",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 28999,
+        "originalPrice": 40999,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.8,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "₹3,500 off on Axis Bank Cards",
+        "returnDays": "7 Days Service Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 30490,
+        "originalPrice": 40999,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.6,
+        "delivery": "Store Pickup Available",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 29490,
+        "originalPrice": 40999,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "Reliance Digital Store",
+        "rating": 4.7,
+        "delivery": "Express 3-Hour Delivery",
+        "bankOffer": "Flat 10% Cashback on SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 26999,
+      "store": "Flipkart",
+      "date": "2026-09-25"
+    },
+    "highestPriceEver": {
+      "price": 40999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 31200,
+    "priceDropNotice": "Flipkart offers the lowest price at ₹28,999 (Save ₹12,000)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 40999,
+        "flipkart": 40999,
+        "croma": 40999,
+        "reliance": 40999,
+        "lowest": 40999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 34999,
+        "flipkart": 33999,
+        "croma": 35490,
+        "reliance": 34490,
+        "lowest": 33999
+      },
+      {
+        "date": "2026-09-25",
+        "amazon": 28999,
+        "flipkart": 26999,
+        "croma": 30990,
+        "reliance": 28990,
+        "lowest": 26999
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 29999,
+        "flipkart": 28999,
+        "croma": 30490,
+        "reliance": 29490,
+        "lowest": 28999
+      }
+    ]
+  },
+  {
+    "id": "prod-35",
+    "title": "LG 8.0 Kg 5 Star AI Direct Drive Front Load Washing Machine (FHM1408BDW)",
+    "brand": "LG",
+    "category": "Home Appliances",
+    "mrp": 46990,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/b/l/m/-resized-original-imah5efwsfzaejzv.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/b/l/m/-resized-original-imah5efwsfzaejzv.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/c/d/1/-resized-original-imahpcyxyudynapc.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/washing-machine-new/v/a/g/-original-imahmvtw7bm2jne3.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 5120,
+    "expertScore": 9.4,
+    "badge": "AI Smart Laundry",
+    "description": "AI DD intelligent care with 18% more fabric protection. Senses fabric weight and softness, selects optimal 6-Motion wash cycles, features Steam hygiene wash removing 99.9% allergens, and 1400 RPM spin speed.",
+    "specs": {
+      "Capacity": "8.0 Kg (Ideal for families of 4 to 5 members)",
+      "Energy Rating": "5 Star BEE Rating with 1400 RPM Spin Speed",
+      "Motor": "Inverter Direct Drive Motor (Beltless, Ultra-Silent)",
+      "Wash Programs": "14 Programs: Cotton, Steam Wash, Allergy Care, Quick 30",
+      "Warranty": "2 Years Comprehensive + 10 Years on Inverter DD Motor"
+    },
+    "pros": [
+      "Inverter Direct Drive motor operates with barely audible vibration",
+      "Steam wash sanitizes baby clothing and allergy-sensitive bedding",
+      "High 1400 RPM speed extracts water thoroughly, cutting drying time in half"
+    ],
+    "cons": [
+      "Heavier machine requiring two technicians to place on stand",
+      "Requires adequate inlet tap water pressure (at least 1.0 bar)"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 34990,
+        "originalPrice": 46990,
+        "discountPercent": 26,
+        "inStock": true,
+        "seller": "RetailEZ Online (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Scheduled Delivery & Demo",
+        "bankOffer": "₹2,500 Instant Discount on HDFC Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 33990,
+        "originalPrice": 46990,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "OmniTechRetail Assured",
+        "rating": 4.7,
+        "delivery": "Delivery & Demo within 48 Hours",
+        "bankOffer": "₹3,000 off on Axis Bank Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 34490,
+        "originalPrice": 46990,
+        "discountPercent": 27,
+        "inStock": true,
+        "seller": "Croma Retail",
+        "rating": 4.8,
+        "delivery": "Next-Day Delivery by Croma Experts",
+        "bankOffer": "Flat ₹2,500 off on ICICI Cards",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 33490,
+        "originalPrice": 46990,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "Reliance ResQ Certified",
+        "rating": 4.8,
+        "delivery": "Express 24-Hour Delivery & Demo",
+        "bankOffer": "Flat ₹3,000 Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 31990,
+      "store": "Reliance Digital",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 46990,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 35500,
+    "priceDropNotice": "Reliance Digital currently holds the Lowest Price at ₹33,490 (Save ₹13,500)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 46990,
+        "flipkart": 46990,
+        "croma": 46990,
+        "reliance": 46990,
+        "lowest": 46990
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 38990,
+        "flipkart": 37990,
+        "croma": 38490,
+        "reliance": 36990,
+        "lowest": 36990
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 34490,
+        "flipkart": 33490,
+        "croma": 34990,
+        "reliance": 31990,
+        "lowest": 31990
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 34990,
+        "flipkart": 33990,
+        "croma": 34490,
+        "reliance": 33490,
+        "lowest": 33490
+      }
+    ]
+  },
+  {
+    "id": "prod-36",
+    "title": "KENT Grand Plus RO+UV+UF+TDS Control Water Purifier (9 Litres Tank)",
+    "brand": "KENT",
+    "category": "Home Appliances",
+    "mrp": 21000,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/z/d/1/marvel-111166b-kent-original-imahhumh8uhgh7px.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/z/d/1/marvel-111166b-kent-original-imahhumh8uhgh7px.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/u/n/2/marvel-plus-kent-resized-original-imahp9eh4h3ggtjg.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/c/c/r/grand-plus-kent-resized-original-imahpzy3wbgrqwtz.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 6890,
+    "expertScore": 9.3,
+    "badge": "Pure Drinking Water Leader",
+    "description": "India's largest selling RO water purifier with patented Mineral RO technology. Retains essential natural minerals in drinking water, features in-tank UV disinfection, and 20 L/hr purification capacity.",
+    "specs": {
+      "Purification Technology": "RO + UV + UF + Alkaline + TDS Control",
+      "Storage Capacity": "9 Litres Tank with Water Level Indicator",
+      "Purification Rate": "Up to 20 Litres / Hour output flow",
+      "In-Tank Disinfection": "UV LED in storage tank keeps purified water sterile",
+      "Installation": "Free Wall-Mount Installation by Certified Brand Engineer"
+    },
+    "pros": [
+      "TDS controller allows precise adjustment of natural mineral balance",
+      "Large 9L storage tank ensures uninterrupted water supply during power cuts",
+      "UV LED inside tank prevents bacterial growth even when stored for days"
+    ],
+    "cons": [
+      "Sediment and carbon pre-filters need annual service replacement",
+      "Produces rejected brine water typical of domestic RO systems"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 14999,
+        "originalPrice": 21000,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "KENT RO Systems Official (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹1,500 Instant Discount on ICICI Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 14499,
+        "originalPrice": 21000,
+        "discountPercent": 31,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "5% Cashback on Flipkart Axis Card",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 14990,
+        "originalPrice": 21000,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "Croma Appliances",
+        "rating": 4.7,
+        "delivery": "Store Pickup or 24h Delivery",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 14290,
+        "originalPrice": 21000,
+        "discountPercent": 32,
+        "inStock": true,
+        "seller": "Reliance ResQ Home",
+        "rating": 4.7,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% Cashback with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 13499,
+      "store": "Reliance Digital",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 21000,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 15400,
+    "priceDropNotice": "Reliance Digital has the lowest deal at ₹14,290 (Save ₹6,710)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 21000,
+        "flipkart": 21000,
+        "croma": 21000,
+        "reliance": 21000,
+        "lowest": 21000
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 16999,
+        "flipkart": 16499,
+        "croma": 16990,
+        "reliance": 15990,
+        "lowest": 15990
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 14799,
+        "flipkart": 13999,
+        "croma": 14990,
+        "reliance": 13499,
+        "lowest": 13499
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 14999,
+        "flipkart": 14499,
+        "croma": 14990,
+        "reliance": 14290,
+        "lowest": 14290
+      }
+    ]
+  },
+  {
+    "id": "prod-37",
+    "title": "Puma Men's BMW M Motorsport Drift Cat Decima Low-Top Sneakers",
+    "brand": "Puma",
+    "category": "Fashion",
+    "mrp": 7999,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/w/0/d/-watermarked-original-imahhpsqzdfser8c.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/w/0/d/-watermarked-original-imahhpsqzdfser8c.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/0/x/q/9-5-309412-9-5-puma-black-white-original-imahppyf3d5cewbv.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/h/g/o/9-309174-9-0-puma-white-watermarked-original-imahh9ufgm9xazcw.jpeg"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 2450,
+    "expertScore": 9.1,
+    "badge": "Motorsport Elegance",
+    "description": "Official BMW M Motorsport licensed footwear. Features sleek low-profile racing silhouette, BMW propeller pin on heel, perforated synthetic leather upper, and driver-inspired rounded rubber heel.",
+    "specs": {
+      "Upper Material": "Premium Perforated Synthetic Leather with PUMA Formstrip",
+      "Outsole": "Low-profile Oil-Resistant Rubber with Driver Rounded Heel",
+      "Branding": "Official Metal BMW M Motorsport Pin Badge on Heel",
+      "Closure": "Lace-Up with snug ergonomic racing contour"
+    },
+    "pros": [
+      "Super stylish motorsport design that pairs effortlessly with jeans or chinos",
+      "Rounded driver heel gives excellent tactile pedal feel while driving",
+      "Lightweight and easy to clean with a quick damp cloth wipe"
+    ],
+    "cons": [
+      "Snug aerodynamic fit (recommend sizing half-size up for wide feet)",
+      "Low profile sole is designed for driving/casual wear, not long distance running"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 4499,
+        "originalPrice": 7999,
+        "discountPercent": 44,
+        "inStock": true,
+        "seller": "Puma Sports India (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹500 Instant Discount with Amazon Pay",
+        "returnDays": "10 Days Return/Exchange",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 4199,
+        "originalPrice": 7999,
+        "discountPercent": 48,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "Extra 5% off on Axis Bank Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 4799,
+        "originalPrice": 7999,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Croma Lifestyle",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 4299,
+        "originalPrice": 7999,
+        "discountPercent": 46,
+        "inStock": true,
+        "seller": "Trends / Reliance Retail",
+        "rating": 4.6,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% off on SBI Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 3799,
+      "store": "Flipkart",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 7999,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 4600,
+    "priceDropNotice": "48% Off! Flipkart offers the best price at ₹4,199 (Save ₹3,800)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 7999,
+        "flipkart": 7999,
+        "croma": 7999,
+        "reliance": 7999,
+        "lowest": 7999
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 5499,
+        "flipkart": 5199,
+        "croma": 5799,
+        "reliance": 5399,
+        "lowest": 5199
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 4399,
+        "flipkart": 3799,
+        "croma": 4999,
+        "reliance": 4299,
+        "lowest": 3799
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 4499,
+        "flipkart": 4199,
+        "croma": 4799,
+        "reliance": 4299,
+        "lowest": 4199
+      }
+    ]
+  },
+  {
+    "id": "prod-38",
+    "title": "Fossil Grant Chronograph Dark Brown Leather Watch for Men (FS4813)",
+    "brand": "Fossil",
+    "category": "Fashion",
+    "mrp": 13995,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/a/2/y/1-fs4813ie-fossil-men-watermarked-original-imah8tppahbw8zhz.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/a/2/y/1-fs4813ie-fossil-men-watermarked-original-imah8tppahbw8zhz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/s/y/i/-watermarked-original-imahkhsz5krmwsse.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/watch/c/g/x/-watermarked-original-imahmsz4krtnzsqc.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 6120,
+    "expertScore": 9.3,
+    "badge": "Timeless Gentleman",
+    "description": "Modeled after vintage clocks, Roman numeral markers add artistic balance to the dial. Features 44mm stainless steel case, genuine dark brown leather strap with interchangeable band buckle, and 5 ATM water resistance.",
+    "specs": {
+      "Case Size": "44 mm Stainless Steel Case (12mm Thickness)",
+      "Movement": "Quartz Chronograph with 3 Sub-dials (24h, 30m, 60s)",
+      "Strap": "22mm Genuine Calfskin Leather with Buckle Closure",
+      "Dial": "Cream dial with blue hands and Roman numeral indexes",
+      "Water Resistance": "50 Meters / 5 ATM (Swimproof)"
+    },
+    "pros": [
+      "Gorgeously detailed cream dial with striking metallic electric blue hands",
+      "Supple genuine leather band softens comfortably against wrist over time",
+      "Classic Roman numeral styling suitable for formal suits and weekend shirts"
+    ],
+    "cons": [
+      "Leather band should be kept away from excessive pool water soaking",
+      "44mm case diameter looks best on medium to broad wrists"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 8495,
+        "originalPrice": 13995,
+        "discountPercent": 39,
+        "inStock": true,
+        "seller": "Fossil India Official (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹1,000 Instant ICICI Bank Discount",
+        "returnDays": "10 Days Return/Exchange",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 7999,
+        "originalPrice": 13995,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "IndiFlashMart Assured",
+        "rating": 4.7,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% off on Axis Bank Cards",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 8995,
+        "originalPrice": 13995,
+        "discountPercent": 36,
+        "inStock": true,
+        "seller": "Tata CLiQ / Croma Luxury",
+        "rating": 4.6,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 8290,
+        "originalPrice": 13995,
+        "discountPercent": 41,
+        "inStock": true,
+        "seller": "Reliance Retail Hub",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Exchange",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 7499,
+      "store": "Flipkart",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 13995,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 8750,
+    "priceDropNotice": "Flipkart offers the Lowest Price at ₹7,999 (Save ₹5,996)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 13995,
+        "flipkart": 13995,
+        "croma": 13995,
+        "reliance": 13995,
+        "lowest": 13995
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 9995,
+        "flipkart": 9495,
+        "croma": 10495,
+        "reliance": 9790,
+        "lowest": 9495
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 8495,
+        "flipkart": 7499,
+        "croma": 9295,
+        "reliance": 8190,
+        "lowest": 7499
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 8495,
+        "flipkart": 7999,
+        "croma": 8995,
+        "reliance": 8290,
+        "lowest": 7999
+      }
+    ]
+  },
+  {
+    "id": "prod-39",
+    "title": "Cosco Tournament Badminton Set (2 Aluminum-Carbon Rackets, 10 Shuttles, Full Net)",
+    "brand": "Cosco",
+    "category": "Sports",
+    "mrp": 3250,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/kit/8/7/f/badminton-racquet-set-of-2pcs-with-10pcs-nylon-shuttles-1-net-resized-original-imahhnnjyecvgzka.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/kit/8/7/f/badminton-racquet-set-of-2pcs-with-10pcs-nylon-shuttles-1-net-resized-original-imahhnnjyecvgzka.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/kit/1/m/o/fine-combo-set-with-2-rackets-3-feather-shuttles-and-net-5196-66-original-imahc7c7txtqhgvz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/kit/8/k/t/badminton-combo-kit-set-of-2-piece-racquet-with-6-piece-shuttles-original-imahf3hwgzpyhaca.jpeg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 3890,
+    "expertScore": 8.9,
+    "badge": "Outdoor Weekend Fun",
+    "description": "Complete family and outdoor recreational kit. Includes 2 tempered aluminum alloy rackets, nylon braided court net, heavy-duty guide ropes, and a tube of 10 Aerowings synthetic shuttlecocks.",
+    "specs": {
+      "Rackets": "2x Tempered Alloy Shaft with Isometric Head Frame",
+      "Net Dimensions": "20 ft x 2.5 ft Tournament Braided Nylon Mesh",
+      "Shuttles": "10x Cosco Aerowings High-Durability Synthetic Shuttles",
+      "Carry Bag": "Padded Full Cover Zippered Shoulder Bag included"
+    },
+    "pros": [
+      "Complete ready-to-play set with net and ground stakes for beach or lawn",
+      "Durable alloy frames endure accidental clashes during doubles games",
+      "Synthetic shuttles last significantly longer than delicate feather shuttles"
+    ],
+    "cons": [
+      "Net stakes require soft grass or sand ground to push into",
+      "Rackets have slightly heavier weight compared to pure carbon graphite"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 1899,
+        "originalPrice": 3250,
+        "discountPercent": 42,
+        "inStock": true,
+        "seller": "Cosco India Store (Prime)",
+        "rating": 4.7,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹200 Instant Amazon Pay Discount",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 1749,
+        "originalPrice": 3250,
+        "discountPercent": 46,
+        "inStock": true,
+        "seller": "RetailNet Assured",
+        "rating": 4.6,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 2099,
+        "originalPrice": 3250,
+        "discountPercent": 35,
+        "inStock": true,
+        "seller": "Croma Sports",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 1849,
+        "originalPrice": 3250,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "Reliance Retail Sports",
+        "rating": 4.6,
+        "delivery": "Express Store Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 1599,
+      "store": "Flipkart",
+      "date": "2026-09-21"
+    },
+    "highestPriceEver": {
+      "price": 3250,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 1980,
+    "priceDropNotice": "Flipkart offers the best deal at ₹1,749 (Save ₹1,501)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 3250,
+        "flipkart": 3250,
+        "croma": 3250,
+        "reliance": 3250,
+        "lowest": 3250
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 2299,
+        "flipkart": 2199,
+        "croma": 2499,
+        "reliance": 2249,
+        "lowest": 2199
+      },
+      {
+        "date": "2026-09-21",
+        "amazon": 1849,
+        "flipkart": 1599,
+        "croma": 2199,
+        "reliance": 1799,
+        "lowest": 1599
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 1899,
+        "flipkart": 1749,
+        "croma": 2099,
+        "reliance": 1849,
+        "lowest": 1749
+      }
+    ]
+  },
+  {
+    "id": "prod-40",
+    "title": "Spalding NBA Official Composite Leather Basketball (Size 7, Indoor/Outdoor)",
+    "brand": "Spalding",
+    "category": "Sports",
+    "mrp": 3499,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/ball/o/2/t/580-640-flight-tropical-7-24-1-na-basketball-spalding-resized-original-imah7zf7qfz7eevr.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/ball/o/2/t/580-640-flight-tropical-7-24-1-na-basketball-spalding-resized-original-imah7zf7qfz7eevr.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/ball/d/j/n/580-640-flight-nightfall-7-24-1-na-basketball-spalding-resized-original-imah7zf7q2cjdb5j.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/s/a/a/spmy003-30-606-1-spalding-basketball-nba-graffiti-resized-original-imaebqfgqd5zrqz4.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 5210,
+    "expertScore": 9.4,
+    "badge": "Pro Court Grip",
+    "description": "Engineered for tournament play. Features exclusive composite leather cover with deep pebbling for total ball control, full-ball channel design, and responsive bounce on concrete or hardwood.",
+    "specs": {
+      "Size & Weight": "Official Size 7 (29.5 inches circumference / 600g)",
+      "Material": "High-Tack Sponge Composite Leather with Foam Backing",
+      "Surface": "Indoor Hardwood and Outdoor Concrete/Tar Courts",
+      "Air Retention": "Butyl Bladder with Nylon Windings"
+    },
+    "pros": [
+      "Incredible tacky grip that feels comfortable in hands from the first dribble",
+      "Consistent, balanced bounce off backboards and rims",
+      "Heavy-duty composite skin resists asphalt scrapes without peeling"
+    ],
+    "cons": [
+      "Ships inflated or semi-deflated depending on courier rules",
+      "Tackiness benefits from occasional wipe down with a micro-damp cloth"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 2199,
+        "originalPrice": 3499,
+        "discountPercent": 37,
+        "inStock": true,
+        "seller": "Spalding Authorized India (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹200 Instant Amazon Pay Discount",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 1999,
+        "originalPrice": 3499,
+        "discountPercent": 43,
+        "inStock": true,
+        "seller": "SportsKart Assured",
+        "rating": 4.7,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 2399,
+        "originalPrice": 3499,
+        "discountPercent": 31,
+        "inStock": true,
+        "seller": "Croma Sports",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 2099,
+        "originalPrice": 3499,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Reliance Retail Sports",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 1849,
+      "store": "Flipkart",
+      "date": "2026-09-23"
+    },
+    "highestPriceEver": {
+      "price": 3499,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 2250,
+    "priceDropNotice": "Flipkart leads with the lowest price at ₹1,999 (Save ₹1,500)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 3499,
+        "flipkart": 3499,
+        "croma": 3499,
+        "reliance": 3499,
+        "lowest": 3499
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 2599,
+        "flipkart": 2499,
+        "croma": 2799,
+        "reliance": 2549,
+        "lowest": 2499
+      },
+      {
+        "date": "2026-09-23",
+        "amazon": 2199,
+        "flipkart": 1849,
+        "croma": 2499,
+        "reliance": 2099,
+        "lowest": 1849
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 2199,
+        "flipkart": 1999,
+        "croma": 2399,
+        "reliance": 2099,
+        "lowest": 1999
+      }
+    ]
+  },
+  {
+    "id": "prod-41",
+    "title": "Taparia 11-Piece Universal Chrome Vanadium Combination Spanner Set (6mm to 22mm)",
+    "brand": "Taparia",
+    "category": "Hardware Tools",
+    "mrp": 2490,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/wrench-set/l/f/p/12-css12-spanner-set-home-professional-taparia-original-imahmna8kvnrubhy.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/wrench-set/l/f/p/12-css12-spanner-set-home-professional-taparia-original-imahmna8kvnrubhy.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/wrench-set/6/w/a/12-css12-combination-spanner-set-home-professional-taparia-original-imahkm8x95ypkpnz.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/kcz4rrk0/wrench-set/s/a/k/dep08-taparia-original-imaftzpeqzduevtj.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 7120,
+    "expertScore": 9.3,
+    "badge": "Garage Mechanic Benchmark",
+    "description": "Forged from high-grade Chrome Vanadium steel and hardened to 40-48 HRC. Features MaxiDrive ring end that grips flats of fasteners instead of corners to prevent rounding of nuts.",
+    "specs": {
+      "Sizes Included": "6, 7, 8, 9, 10, 11, 12, 14, 17, 19, 22 mm",
+      "Material": "Drop-Forged High-Grade Chrome Vanadium (CrV) Steel",
+      "Finish": "Satin Nickel Chrome Plating for corrosion resistance",
+      "Angle": "Ring end angled at 15 degrees for finger clearance"
+    },
+    "pros": [
+      "MaxiDrive profile generates 15% more torque without rounding nuts",
+      "Satin chrome finish protects spanners from rust and oily grease buildup",
+      "Roll-up heavy-duty canvas wallet keeps every size sorted in toolbox"
+    ],
+    "cons": [
+      "Does not include sizes above 22mm for heavy industrial tractor bolts",
+      "Canvas roll pouch has plastic tie string"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 1499,
+        "originalPrice": 2490,
+        "discountPercent": 40,
+        "inStock": true,
+        "seller": "Taparia Official Tools (Prime)",
+        "rating": 4.8,
+        "delivery": "FREE Tomorrow Delivery",
+        "bankOffer": "₹150 Instant Cashback",
+        "returnDays": "10 Days Replacement",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 1399,
+        "originalPrice": 2490,
+        "discountPercent": 44,
+        "inStock": true,
+        "seller": "ToolsDirect Assured",
+        "rating": 4.7,
+        "delivery": "FREE 2-Day Delivery",
+        "bankOffer": "5% off on Axis Bank Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 1699,
+        "originalPrice": 2490,
+        "discountPercent": 32,
+        "inStock": true,
+        "seller": "Croma Hardware Section",
+        "rating": 4.5,
+        "delivery": "Delivery in 3 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "15 Days Return",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 1449,
+        "originalPrice": 2490,
+        "discountPercent": 42,
+        "inStock": true,
+        "seller": "Reliance ResQ Tools",
+        "rating": 4.7,
+        "delivery": "Same Day Dispatch",
+        "bankOffer": "Flat 10% off with SBI Cards",
+        "returnDays": "7 Days Replacement",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 1299,
+      "store": "Flipkart",
+      "date": "2026-09-22"
+    },
+    "highestPriceEver": {
+      "price": 2490,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 1550,
+    "priceDropNotice": "Flipkart offers the lowest price at ₹1,399 (Save ₹1,091)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 2490,
+        "flipkart": 2490,
+        "croma": 2490,
+        "reliance": 2490,
+        "lowest": 2490
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 1799,
+        "flipkart": 1699,
+        "croma": 1899,
+        "reliance": 1749,
+        "lowest": 1699
+      },
+      {
+        "date": "2026-09-22",
+        "amazon": 1449,
+        "flipkart": 1299,
+        "croma": 1749,
+        "reliance": 1499,
+        "lowest": 1299
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 1499,
+        "flipkart": 1399,
+        "croma": 1699,
+        "reliance": 1449,
+        "lowest": 1399
+      }
+    ]
+  },
+  {
+    "id": "prod-42",
+    "title": "Saffola Gold Pro Healthy Balanced Blend Cooking Oil (5 Litre Jerry Can)",
+    "brand": "Saffola",
+    "category": "Packed Food Items",
+    "mrp": 1199,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/edible-oil/e/5/i/500-cold-pressed-flaxseed-oil-content-omega-3-6-9-fatty-acid-original-imah2fp29wuzuubr.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/edible-oil/e/5/i/500-cold-pressed-flaxseed-oil-content-omega-3-6-9-fatty-acid-original-imah2fp29wuzuubr.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/edible-oil/e/e/h/5-wood-pressed-peanuts-plastic-can-1-groundnut-oil-anveshan-resized-original-imahegzcaantvz5y.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/edible-oil/m/e/d/5-extra-virgin-olive-oil-for-indian-cooking-can-1-olive-oil-resized-original-imahanuucdxhuhch.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 14210,
+    "expertScore": 9.3,
+    "badge": "Heart Healthy Choice",
+    "description": "Clinically proven multisource edible oil with Dual Seed Technology (Refined Rice Bran Oil + Refined Sunflower Oil). Fortified with Natural Antioxidants, Oryzanol, Vitamin A and Vitamin D.",
+    "specs": {
+      "Volume": "5 Litre Heavy-Duty HDPE Food Grade Jerry Can with Handle",
+      "Dual Seed Blend": "70% Refined Rice Bran Oil + 30% Refined Sunflower Oil",
+      "Health Perks": "LOSORB Technology absorbs up to 33% less oil in food",
+      "Nutritional Fortification": "Enriched with High Oryzanol, Vitamin A & Vitamin D",
+      "Shelf Life": "9 Months from packaging date"
+    },
+    "pros": [
+      "LOSORB technology keeps fried puris, samosas, and snacks noticeably less greasy",
+      "High smoke point makes it suitable for Indian deep frying, sautéing, and curries",
+      "Sturdy handle on 5L can allows effortless spill-free pouring"
+    ],
+    "cons": [
+      "Heavy 5kg package needs sturdy kitchen shelf placement",
+      "Store in a cool dry place away from direct sunlight"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 849,
+        "originalPrice": 1199,
+        "discountPercent": 29,
+        "inStock": true,
+        "seller": "Marico Official (Prime Fresh)",
+        "rating": 4.8,
+        "delivery": "FREE Same Day Delivery",
+        "bankOffer": "₹100 Cashback on Amazon Fresh",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 829,
+        "originalPrice": 1199,
+        "discountPercent": 31,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.8,
+        "delivery": "FREE Next-Day Delivery",
+        "bankOffer": "5% Cashback on Axis Bank Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 899,
+        "originalPrice": 1199,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Exchange if Damaged",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 799,
+        "originalPrice": 1199,
+        "discountPercent": 33,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart Bazaar",
+        "rating": 4.9,
+        "delivery": "Express 3-Hour Store Delivery",
+        "bankOffer": "Flat 10% Cashback on JioMart Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 769,
+      "store": "Reliance Digital",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 1199,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 870,
+    "priceDropNotice": "Reliance Digital / JioMart offers the best deal at ₹799 (Save ₹400)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 1199,
+        "flipkart": 1199,
+        "croma": 1199,
+        "reliance": 1199,
+        "lowest": 1199
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 949,
+        "flipkart": 919,
+        "croma": 979,
+        "reliance": 899,
+        "lowest": 899
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 849,
+        "flipkart": 819,
+        "croma": 899,
+        "reliance": 769,
+        "lowest": 769
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 849,
+        "flipkart": 829,
+        "croma": 899,
+        "reliance": 799,
+        "lowest": 799
+      }
+    ]
+  },
+  {
+    "id": "prod-43",
+    "title": "Cadbury Celebrations Rich Dry Fruit Chocolate Gift Box (177g)",
+    "brand": "Cadbury",
+    "category": "Packed Food Items",
+    "mrp": 500,
+    "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/nut-dry-fruit/c/1/z/-original-imahsjfrqx4mwcve.jpeg",
+    "gallery": [
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/nut-dry-fruit/c/1/z/-original-imahsjfrqx4mwcve.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/nut-dry-fruit/b/1/n/250-premium-dried-amla-candy-healthy-tangy-sweet-treat-for-all-original-imahr7ghhemzrgrk.jpeg",
+      "https://rukminim2.flixcart.com/image/832/832/xif0q/nut-dry-fruit/c/f/t/1-0-dried-blueberry-plum-source-of-fibre-sweet-blueberry-plum-resized-original-imahmgqhzsvhkjhp.jpeg"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 8920,
+    "expertScore": 9.2,
+    "badge": "Festive Delight",
+    "description": "Filled with almonds, cashews, and raisins coated in silky Cadbury Dairy Milk chocolate. Handcrafted for celebrating auspicious occasions, Diwali gifting, and sweet moments.",
+    "specs": {
+      "Net Weight": "177 grams Assorted Chocolate & Whole Nut Bites",
+      "Assortment": "Almond Magic, Cashew Envy, and Raisin Delight Bites",
+      "Chocolate Type": "Cadbury Milk Chocolate (Min 25% Cocoa Solids)",
+      "Dietary Info": "100% Vegetarian (Green Dot Certified)",
+      "Shelf Life": "9 Months from packaging date"
+    },
+    "pros": [
+      "Whole premium California almonds and roasted cashews inside every bite",
+      "Festive jewel-tone gift box requires zero extra gift wrapping",
+      "Signature rich and creamy melt-in-mouth Cadbury taste profile"
+    ],
+    "cons": [
+      "Contains nuts and milk solids (allergen notice)",
+      "Store in a cool dry place below 20°C to prevent bloom"
+    ],
+    "stores": {
+      "amazon": {
+        "storeName": "Amazon",
+        "logo": "amazon",
+        "price": 389,
+        "originalPrice": 500,
+        "discountPercent": 22,
+        "inStock": true,
+        "seller": "Mondelez India Official (Prime Fresh)",
+        "rating": 4.8,
+        "delivery": "FREE Same Day Delivery",
+        "bankOffer": "₹50 Instant Amazon Pay Discount",
+        "returnDays": "Non-Returnable (Food Safety)",
+        "url": "https://www.amazon.in"
+      },
+      "flipkart": {
+        "storeName": "Flipkart",
+        "logo": "flipkart",
+        "price": 375,
+        "originalPrice": 500,
+        "discountPercent": 25,
+        "inStock": true,
+        "seller": "Flipkart Grocery Supermart",
+        "rating": 4.8,
+        "delivery": "FREE Next-Day Delivery",
+        "bankOffer": "5% off on Axis Bank Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.flipkart.com"
+      },
+      "croma": {
+        "storeName": "Croma",
+        "logo": "croma",
+        "price": 410,
+        "originalPrice": 500,
+        "discountPercent": 18,
+        "inStock": true,
+        "seller": "Tata StarQuik / Croma",
+        "rating": 4.6,
+        "delivery": "Delivery in 2 Days",
+        "bankOffer": "Earn NeuCoins on Purchase",
+        "returnDays": "Exchange if Damaged",
+        "url": "https://www.croma.com"
+      },
+      "reliance": {
+        "storeName": "Reliance Digital",
+        "logo": "reliance",
+        "price": 360,
+        "originalPrice": 500,
+        "discountPercent": 28,
+        "inStock": true,
+        "seller": "JioMart / Reliance Smart Bazaar",
+        "rating": 4.9,
+        "delivery": "Express Store Delivery in 3 Hours",
+        "bankOffer": "Flat 10% Cashback on JioMart Cards",
+        "returnDays": "Replacement if Damaged",
+        "url": "https://www.reliancedigital.in"
+      }
+    },
+    "lowestPriceEver": {
+      "price": 349,
+      "store": "Reliance Digital",
+      "date": "2026-09-24"
+    },
+    "highestPriceEver": {
+      "price": 500,
+      "store": "Amazon",
+      "date": "2026-08-01"
+    },
+    "averagePrice": 395,
+    "priceDropNotice": "Reliance Digital / JioMart leads at ₹360 (Save ₹140)!",
+    "priceHistory": [
+      {
+        "date": "2026-08-01",
+        "amazon": 500,
+        "flipkart": 500,
+        "croma": 500,
+        "reliance": 500,
+        "lowest": 500
+      },
+      {
+        "date": "2026-08-20",
+        "amazon": 429,
+        "flipkart": 419,
+        "croma": 449,
+        "reliance": 399,
+        "lowest": 399
+      },
+      {
+        "date": "2026-09-24",
+        "amazon": 379,
+        "flipkart": 369,
+        "croma": 410,
+        "reliance": 349,
+        "lowest": 349
+      },
+      {
+        "date": "2026-10-30",
+        "amazon": 389,
+        "flipkart": 375,
+        "croma": 410,
+        "reliance": 360,
+        "lowest": 360
+      }
+    ]
+  }
+];
+
+const seedCoupons = [
+  {
+    "id": "coup-1",
+    "store": "amazon",
+    "code": "AMZTECH5000",
+    "title": "₹5,000 Instant Off on Laptops & Flagship Phones",
+    "minPurchase": 50000,
+    "discountAmount": "₹5,000",
+    "category": "Electronics",
+    "verified": true,
+    "expiry": "2026-11-30",
+    "successRate": "98%"
+  },
+  {
+    "id": "coup-2",
+    "store": "flipkart",
+    "code": "FLIPBIGSAVINGS",
+    "title": "Extra ₹2,500 Off with Axis Bank Cards",
+    "minPurchase": 25000,
+    "discountAmount": "₹2,500",
+    "category": "All Products",
+    "verified": true,
+    "expiry": "2026-11-15",
+    "successRate": "95%"
+  },
+  {
+    "id": "coup-3",
+    "store": "croma",
+    "code": "CROMAAPP1000",
+    "title": "Flat ₹1,000 Instant Discount on First App Order",
+    "minPurchase": 10000,
+    "discountAmount": "₹1,000",
+    "category": "Appliances & Audio",
+    "verified": true,
+    "expiry": "2026-12-31",
+    "successRate": "99%"
+  },
+  {
+    "id": "coup-4",
+    "store": "reliance",
+    "code": "RELFESTIVE1500",
+    "title": "Flat 10% Cashback up to ₹1,500 on Electronics",
+    "minPurchase": 15000,
+    "discountAmount": "₹1,500",
+    "category": "Smartphones & TVs",
+    "verified": true,
+    "expiry": "2026-11-20",
+    "successRate": "94%"
+  },
+  {
+    "id": "coup-5",
+    "store": "amazon",
+    "code": "PRIMEAUDIO10",
+    "title": "10% Extra Off on Sony & Bose Audio Gear",
+    "minPurchase": 12000,
+    "discountAmount": "10% OFF",
+    "category": "Audio",
+    "verified": true,
+    "expiry": "2026-12-10",
+    "successRate": "96%"
+  },
+  {
+    "id": "coup-6",
+    "store": "croma",
+    "code": "TATANEU5X",
+    "title": "5X Tata NeuCoins on Apple & Samsung Purchases",
+    "minPurchase": 30000,
+    "discountAmount": "5% Coins",
+    "category": "Apple & Flagships",
+    "verified": true,
+    "expiry": "2026-11-25",
+    "successRate": "97%"
+  },
+  {
+    "id": "coup-7",
+    "store": "flipkart",
+    "code": "FASHION20",
+    "title": "Flat 20% Instant Discount on Top Fashion & Footwear",
+    "minPurchase": 3000,
+    "discountAmount": "20% OFF",
+    "category": "Fashion",
+    "verified": true,
+    "expiry": "2026-12-25",
+    "successRate": "98%"
+  },
+  {
+    "id": "coup-8",
+    "store": "amazon",
+    "code": "BOSCHTOOLS500",
+    "title": "Flat ₹500 Instant Off on DIY & Hardware Power Tools",
+    "minPurchase": 3500,
+    "discountAmount": "₹500",
+    "category": "Hardware Tools",
+    "verified": true,
+    "expiry": "2026-11-30",
+    "successRate": "96%"
+  },
+  {
+    "id": "coup-9",
+    "store": "reliance",
+    "code": "JIOMARTGROCERY",
+    "title": "15% Cashback up to ₹400 on Packed Foods & Beverages",
+    "minPurchase": 1200,
+    "discountAmount": "15% OFF",
+    "category": "Packed Food Items",
+    "verified": true,
+    "expiry": "2026-12-15",
+    "successRate": "97%"
+  }
+];
+
+module.exports = {
+  seedProducts,
+  seedCoupons
+};

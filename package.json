@@ -1,0 +1,12 @@
+{
+  "name": "truecart",
+  "version": "1.0.0",
+  "description": "TrueCart - Multi-Store Price Comparison & Deal Tracker (Amazon, Flipkart, Croma, Reliance Digital)",
+  "scripts": {
+    "start": "npm start --prefix server",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  }
+}
