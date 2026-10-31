@@ -1,6 +1,24 @@
 const express = require('express');
 const router = express.Router();
+const path = require('path');
+const fs = require('fs');
 const { getProducts, getProductById } = require('../db');
+
+// Export products dataset as CSV
+router.get('/export/csv', (req, res) => {
+  try {
+    const csvPath = path.join(__dirname, '../../truecart_products_dataset.csv');
+    if (fs.existsSync(csvPath)) {
+      res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+      res.setHeader('Content-Disposition', 'attachment; filename="truecart_products_dataset.csv"');
+      return res.sendFile(csvPath);
+    }
+    return res.status(404).json({ error: 'CSV file not found' });
+  } catch (err) {
+    console.error('CSV export error:', err);
+    return res.status(500).json({ error: 'Failed to export CSV' });
+  }
+});
 
 // List products with filtering & search
 router.get('/', (req, res) => {

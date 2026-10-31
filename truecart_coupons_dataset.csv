@@ -1,0 +1,10 @@
+ID,Store,Coupon Code,Offer Title,Min Purchase (INR),Discount Amount,Category,Verified,Success Rate,Expiry
+coup-1,AMAZON,AMZTECH5000,"₹5,000 Instant Off on Laptops & Flagship Phones",50000,"₹5,000",Electronics,YES,98%,2026-11-30
+coup-2,FLIPKART,FLIPBIGSAVINGS,"Extra ₹2,500 Off with Axis Bank Cards",25000,"₹2,500",All Products,YES,95%,2026-11-15
+coup-3,CROMA,CROMAAPP1000,"Flat ₹1,000 Instant Discount on First App Order",10000,"₹1,000",Appliances & Audio,YES,99%,2026-12-31
+coup-4,RELIANCE,RELFESTIVE1500,"Flat 10% Cashback up to ₹1,500 on Electronics",15000,"₹1,500",Smartphones & TVs,YES,94%,2026-11-20
+coup-5,AMAZON,PRIMEAUDIO10,10% Extra Off on Sony & Bose Audio Gear,12000,10% OFF,Audio,YES,96%,2026-12-10
+coup-6,CROMA,TATANEU5X,5X Tata NeuCoins on Apple & Samsung Purchases,30000,5% Coins,Apple & Flagships,YES,97%,2026-11-25
+coup-7,FLIPKART,FASHION20,Flat 20% Instant Discount on Top Fashion & Footwear,3000,20% OFF,Fashion,YES,98%,2026-12-25
+coup-8,AMAZON,BOSCHTOOLS500,Flat ₹500 Instant Off on DIY & Hardware Power Tools,3500,₹500,Hardware Tools,YES,96%,2026-11-30
+coup-9,RELIANCE,JIOMARTGROCERY,15% Cashback up to ₹400 on Packed Foods & Beverages,1200,15% OFF,Packed Food Items,YES,97%,2026-12-15
