@@ -134,6 +134,22 @@ function saveDb() {
   }
 }
 
+const STORE_SEARCH_URLS = {
+  amazon: (query) => `https://www.amazon.in/s?k=${encodeURIComponent(query)}`,
+  flipkart: (query) => `https://www.flipkart.com/search?q=${encodeURIComponent(query)}`,
+  croma: (query) => `https://www.croma.com/search/?text=${encodeURIComponent(query)}`,
+  reliance: (query) => `https://www.reliancedigital.in/search?q=${encodeURIComponent(query)}`
+};
+
+function getStoreProductUrl(product, storeKey, storeUrl) {
+  if (typeof storeUrl === "string") {
+    const url = storeUrl.trim();
+    if (url && url !== "#") return url;
+  }
+  const buildSearchUrl = STORE_SEARCH_URLS[storeKey];
+  return buildSearchUrl ? buildSearchUrl(product.title || product.name || "") : "#";
+}
+
 // Compute lowest price and store across Amazon, Flipkart, Croma, Reliance Digital
 function enrichProduct(product) {
   const storeKeys = ['amazon', 'flipkart', 'croma', 'reliance'];
@@ -156,8 +172,19 @@ function enrichProduct(product) {
   const totalSavings = (product.mrp || lowestPrice) - lowestPrice;
   const storeSavings = highestPrice - lowestPrice;
 
+  const stores = {};
+  storeKeys.forEach(k => {
+    if (product.stores && product.stores[k]) {
+      stores[k] = {
+        ...product.stores[k],
+        url: getStoreProductUrl(product, k, product.stores[k].url)
+      };
+    }
+  });
+
   return {
     ...product,
+    stores: Object.keys(stores).length ? stores : product.stores,
     currentLowestPrice: lowestPrice,
     bestStore: bestStore,
     totalSavingsVsMRP: totalSavings,
